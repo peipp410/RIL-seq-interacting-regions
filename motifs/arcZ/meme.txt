@@ -1,0 +1,1728 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.2 (Release date: Sun Jan 29 10:33:12 2023 -0800)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= ./motifs/arcZ.fa
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+1_tnaC                   1.0000    533  2_napF                   1.0000    509  
+3_rbsD                   1.0000    510  4_ypfM                   1.0000    314  
+5_tnaA                   1.0000    539  6_aspA                   1.0000    488  
+7_cstA                   1.0000    511  8_ompC                   1.0000    537  
+9_tar                    1.0000    537  10_ompF                  1.0000    235  
+11_rpsF                  1.0000    536  12_rpsF                  1.0000    218  
+13_fliF                  1.0000    519  14_glpT                  1.0000    193  
+15_gpsA                  1.0000    491  16_fliC                  1.0000    141  
+17_uspA                  1.0000    472  18_ytfQ                  1.0000    474  
+19_ligA                  1.0000    378  20_glpK                  1.0000    236  
+21_yejG                  1.0000    506  22_glpT                  1.0000    138  
+23_crp                   1.0000    532  24_yqeC                  1.0000    505  
+25_mqsR                  1.0000    368  26_fliF                  1.0000    463  
+27_flhD                  1.0000    235  28_bamE                  1.0000    463  
+29_malG                  1.0000    513  30_flxA                  1.0000    386  
+31_ompT                  1.0000    465  32_yqjA                  1.0000    435  
+33_rplJ                  1.0000    137  34_hypE                  1.0000    257  
+35_secD                  1.0000    470  36_gatZ                  1.0000    129  
+37_grcA                  1.0000    162  38_gcvT                  1.0000    223  
+39_gnsB                  1.0000    177  40_ydbA                  1.0000    106  
+41_gsk                   1.0000    460  42_bidA                  1.0000    136  
+43_yibX                  1.0000    118  44_yidC                  1.0000    329  
+45_aegA                  1.0000    404  46_secB                  1.0000    323  
+47_yciZ                  1.0000    440  48_rpsG                  1.0000    134  
+49_cspD                  1.0000    123  50_uup                   1.0000    511  
+51_mutS                  1.0000    105  52_sdaC                  1.0000    135  
+53_sucD                  1.0000    205  54_clpS                  1.0000     79  
+55_oppA                  1.0000     89  56_ompF                  1.0000    132  
+57_yagE                  1.0000    221  58_pqiC                  1.0000    115  
+59_sfsA                  1.0000    211  60_pgi                   1.0000    213  
+61_grcA                  1.0000    134  62_nuoM                  1.0000    193  
+63_rlmI                  1.0000    179  64_tnaB                  1.0000    139  
+65_guaA                  1.0000    212  66_oppA                  1.0000    123  
+67_lpxC                  1.0000    223  68_rbsK                  1.0000    124  
+69_lpxT                  1.0000    504  70_bidA                  1.0000    119  
+71_rcnB                  1.0000    122  72_ompA                  1.0000    138  
+73_clpS                  1.0000    140  74_ycbJ                  1.0000    314  
+75_rpsK                  1.0000    141  76_tsr                   1.0000    122  
+77_fre                   1.0000    210  78_rplD                  1.0000    141  
+79_gltP                  1.0000    220  80_flgE                  1.0000    533  
+81_flgG                  1.0000    124  82_btuE                  1.0000    115  
+83_kdsC                  1.0000    144  84_tyrS                  1.0000     99  
+85_pepP                  1.0000    226  86_ydfW                  1.0000    388  
+87_yaeP                  1.0000    200  88_fliZ                  1.0000    135  
+89_yjgA                  1.0000    121  90_ynfS                  1.0000    219  
+91_prmC                  1.0000     71  92_tdcE                  1.0000     59  
+93_ucpA                  1.0000    138  94_malT                  1.0000    132  
+95_ygiM                  1.0000    126  96_dgt                   1.0000     86  
+97_narG                  1.0000    218  98_fliK                  1.0000     78  
+99_nuoE                  1.0000    209  100_brnQ                 1.0000    205  
+101_nfrA                 1.0000    150  102_aphA                 1.0000    284  
+103_helD                 1.0000    277  104_tdcB                 1.0000    139  
+105_mlaF                 1.0000    151  106_waaY                 1.0000    294  
+107_nuoC                 1.0000    293  108_fusA                 1.0000    210  
+109_rpoN                 1.0000    128  110_pykA                 1.0000    185  
+111_rsmA                 1.0000    103  112_waaS                 1.0000    316  
+113_metN                 1.0000    214  114_blr                  1.0000    178  
+115_rfbA                 1.0000    162  116_glpA                 1.0000    117  
+117_trg                  1.0000    140  118_flhE                 1.0000     75  
+119_clcA                 1.0000    203  120_flxA                 1.0000     98  
+121_gltJ                 1.0000    117  122_tpx                  1.0000     73  
+123_proQ                 1.0000    128  124_lysR                 1.0000    189  
+125_dnaB                 1.0000     75  126_rsgA                 1.0000     80  
+127_malE                 1.0000    190  128_ychJ                 1.0000    103  
+129_rpoB                 1.0000     99  130_msrA                 1.0000    184  
+131_tmcA                 1.0000    129  132_yghJ                 1.0000    538  
+133_bax                  1.0000     57  134_lptF                 1.0000    213  
+135_recB                 1.0000     48  136_dnaK                 1.0000    401  
+137_lptB                 1.0000    204  138_ysaB                 1.0000    412  
+139_zapG                 1.0000     90  140_nhaA                 1.0000    126  
+141_tsr                  1.0000    408  142_sppA                 1.0000    233  
+143_cyoA                 1.0000    138  144_malE                 1.0000    132  
+145_ydcI                 1.0000    302  146_yfaY                 1.0000    489  
+147_prlC                 1.0000    303  148_dapF                 1.0000    131  
+149_hsdS                 1.0000    193  150_mnmA                 1.0000    141  
+151_iscR                 1.0000     87  152_emrA                 1.0000     97  
+153_folA                 1.0000    133  154_ynaE                 1.0000    129  
+155_tsr                  1.0000    117  156_tar                  1.0000    131  
+157_hemD                 1.0000    229  158_kefB                 1.0000     68  
+159_rsfS                 1.0000    420  160_yeaC                 1.0000    410  
+161_cobS                 1.0000    212  162_trxA                 1.0000    151  
+163_rpsB                 1.0000     72  164_gyrA                 1.0000    125  
+165_ada                  1.0000    128  166_ysdE                 1.0000    223  
+167_yicH                 1.0000    105  168_truC                 1.0000     79  
+169_murC                 1.0000    141  170_diaA                 1.0000     98  
+171_ybiA                 1.0000    236  172_nth                  1.0000    139  
+173_fabY                 1.0000    231  174_dinI                 1.0000    489  
+175_waaU                 1.0000    126  176_sdaC                 1.0000    139  
+177_mtgA                 1.0000    517  178_plsB                 1.0000    297  
+179_panD                 1.0000    135  180_ybjD                 1.0000     31  
+181_dtpA                 1.0000     79  182_oppB                 1.0000     93  
+183_trpB                 1.0000     91  184_yeaE                 1.0000    125  
+185_polA                 1.0000    203  186_clpP                 1.0000    186  
+187_napC                 1.0000    289  188_hslR                 1.0000    121  
+189_mntR                 1.0000    153  190_mqo                  1.0000    294  
+191_yfbV                 1.0000    169  192_rimK                 1.0000     97  
+193_ansP                 1.0000    132  194_thrS                 1.0000    330  
+195_argP                 1.0000    410  196_tabA                 1.0000    163  
+197_sanA                 1.0000    105  198_maeB                 1.0000    121  
+199_garK                 1.0000    107  200_ibpA                 1.0000     83  
+201_thrC                 1.0000     70  202_ymcE                 1.0000    307  
+203_gshA                 1.0000    340  204_yhdT                 1.0000     88  
+205_nudF                 1.0000    527  206_pnp                  1.0000    116  
+207_dctA                 1.0000     93  208_nhaA                 1.0000    120  
+209_coaE                 1.0000     87  210_mglA                 1.0000    493  
+211_queE                 1.0000    460  212_argR                 1.0000     95  
+213_garP                 1.0000     82  214_dcuS                 1.0000     66  
+215_bluR                 1.0000    127  216_hrpA                 1.0000    184  
+217_btsS                 1.0000    158  218_valS                 1.0000    204  
+219_preT                 1.0000    419  220_ubiU                 1.0000    120  
+221_nanT                 1.0000     65  222_uvrD                 1.0000    107  
+223_fbp                  1.0000     76  224_chaA                 1.0000     83  
+225_ydiJ                 1.0000    112  226_yegT                 1.0000    192  
+227_yqeI                 1.0000    377  228_waaJ                 1.0000     92  
+229_gpmA                 1.0000    141  230_mglC                 1.0000    103  
+231_trmB                 1.0000    190  232_ratA                 1.0000    132  
+233_waaZ                 1.0000    273  234_apaH                 1.0000    232  
+235_sbcD                 1.0000    236  236_yciW                 1.0000    226  
+237_rsmI                 1.0000    184  238_pldB                 1.0000    126  
+239_fimG                 1.0000    148  240_ygfF                 1.0000    397  
+241_arcB                 1.0000    127  242_feoB                 1.0000    174  
+243_sfsA                 1.0000    110  244_gsiB                 1.0000    122  
+245_ynfC                 1.0000    210  246_rcnR                 1.0000    221  
+247_rcsD                 1.0000    109  248_rng                  1.0000    280  
+249_mutL                 1.0000    143  250_lgoR                 1.0000    140  
+251_uspB                 1.0000    145  252_wzxE                 1.0000    108  
+253_srkA                 1.0000     83  254_thrB                 1.0000     81  
+255_potE                 1.0000     89  256_agp                  1.0000    111  
+257_puuR                 1.0000    141  258_ycjG                 1.0000    200  
+259_mnmE                 1.0000    140  260_ydbK                 1.0000    133  
+261_yfaE                 1.0000    217  262_wecB                 1.0000    195  
+263_lacZ                 1.0000     90  264_mcbR                 1.0000    356  
+265_yhgN                 1.0000    326  266_ydhL                 1.0000    146  
+267_tldE                 1.0000    190  268_lptD                 1.0000    231  
+269_ycgV                 1.0000    120  270_yddB                 1.0000    114  
+271_yphD                 1.0000    245  272_argG                 1.0000    170  
+273_yicJ                 1.0000    254  274_ampG                 1.0000     50  
+275_nrdE                 1.0000     69  276_dppF                 1.0000     64  
+277_ybbW                 1.0000     84  278_pheP                 1.0000    119  
+279_ycaC                 1.0000    140  280_pspF                 1.0000     73  
+281_dcm                  1.0000    101  282_thiH                 1.0000    123  
+283_ghxP                 1.0000    206  284_trkG                 1.0000    121  
+285_yeeJ                 1.0000    132  286_ligB                 1.0000    163  
+287_ybfQ                 1.0000     88  288_yeiQ                 1.0000    147  
+289_yfdP                 1.0000     88  290_sgrR                 1.0000    372  
+291_uvrA                 1.0000    360  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme ./motifs/arcZ.fa -oc ./motifs/arcZ -dna -nostatus -time 14400 -mod zoops -nmotifs 3 -minw 6 -maxw 12 -objfun classic -revcomp -markov_order 0 
+
+model:  mod=         zoops    nmotifs=         3    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: + -
+width:  minw=            6    maxw=           12
+nsites: minsites=        2    maxsites=      291    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           60806    N=             291
+sample: seed=            0    hsfrac=          0
+        searchsize=  60806    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.252 C 0.248 G 0.248 T 0.252 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.252 C 0.248 G 0.248 T 0.252 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF CRCCAGGGAAA MEME-1	width =  11  sites = 291  llr = 1971  E-value = 1.4e-083
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif CRCCAGGGAAA MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  25::8::2565
+pos.-specific     C  518a::1:211
+probability       G  :3::2a88212
+matrix            T  211:::1:112
+
+         bits    2.0    *       
+                 1.8    * *     
+                 1.6    * *     
+                 1.4    * *     
+Relative         1.2   ****     
+Entropy          1.0   ******   
+(9.8 bits)       0.8   ******   
+                 0.6   ******   
+                 0.4 ******** * 
+                 0.2 ***********
+                 0.0 -----------
+
+Multilevel           CACCAGGGAAA
+consensus            TG      G T
+sequence             A          
+                                
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CRCCAGGGAAA MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site  
+-------------            ------  ----- ---------            -----------
+236_yciW                     -    118  2.36e-07 GGCCTGATTC CACCAGGGAAA GTAATCATCG
+3_rbsD                       +    324  2.36e-07 GCTGCAAAAA CACCAGGGAAA TACCATTGAA
+188_hslR                     +    109  4.69e-07 GCTCACTCTG CGCCAGGGAAA TG        
+101_nfrA                     -      5  4.69e-07 GGCGGCGCAG CGCCAGGGAAA AGCT      
+24_yqeC                      -    385  1.42e-06 CTGGAAAGCG AACCAGGGAAA AGTGCAGGGA
+131_tmcA                     -      8  1.65e-06 ATGATGGATG CACCAGGGCAA CATTTTT   
+240_ygfF                     -     83  2.11e-06 CGGTTGGGTT CGCCAGGGGAA TATGTTGATT
+282_thiH                     -      1  2.35e-06 AAGCGGATAT TGCCAGGGAAA           
+81_flgG                      +     69  3.99e-06 ACGCTTACAC AGCCAGGGAAA CCTGTCGCAG
+74_ycbJ                      +    132  3.99e-06 TTTGTATGAC AGCCAGGGAAA CCCAATGCCG
+73_clpS                      +     11  3.99e-06 CGCTGTTCAC TACCAGGGGAA GGCCATTTGC
+58_pqiC                      +     98  3.99e-06 GCTGTTGAAC CACCAGGGACA ACTGATC   
+54_clpS                      +     49  3.99e-06 CGCTGTTCAC TACCAGGGGAA GGCCATTTGC
+25_mqsR                      -     22  3.99e-06 TCCGGTTTGC CACCAGGGAGA AATGGTTTCT
+256_agp                      +     93  4.93e-06 TCCTGTGCAT CACCAGGAAAA AATGGGCA  
+148_dapF                     +     88  4.93e-06 TCTATGAAGC AACCAGGGGAA GAACTGCAGG
+28_bamE                      +    182  4.93e-06 TCCTGACATC AACCAGGGGAA CTATCTGACC
+63_rlmI                      -     33  5.87e-06 TATTGTTGAT CATCAGGGAAA ATGGTTAGCA
+60_pgi                       +    119  5.87e-06 CCAGCTGATC CACCAGGGAAC CAAAATGGTA
+205_nudF                     -     85  7.29e-06 CCGCGTACGA CACCAGCGAAA CCCCTTGGCT
+158_kefB                     -     25  7.29e-06 AAATTTCTCG CGCCAGGGAAG CCCGACGCGA
+96_dgt                       -     52  7.29e-06 CATTTTCAAC CACCAGCGAAA AGAGCGAACC
+86_ydfW                      -    353  7.29e-06 AGGCTATCGA CACCAGGGATA AGCGTGAAAA
+102_aphA                     +    200  7.99e-06 GCGGGCGATA AACCAGGGCAA AATACAAAAT
+99_nuoE                      -      6  7.99e-06 CTGAACATCA AACCAGGGCAA ACGAC     
+216_hrpA                     +    154  9.14e-06 TGGTGATCGT CGCCGGGGAAA CGGGTTCTGG
+174_dinI                     -    309  9.14e-06 TGCCATTCCT CGCCGGGGAAA CGGTACGCTG
+172_nth                      +     73  9.14e-06 ACTCAATTTG CGCCGGGGAAA AACGTCGAAC
+156_tar                      -     14  9.14e-06 TGGTCGAAAG CGCCGGGGAAA CAATGAACAA
+155_tsr                      +     65  9.14e-06 TGGTCGAAAG CGCCGGGGAAA CAATGGCGGA
+124_lysR                     +    173  9.14e-06 GCGCGAGTTT CGCCAGGGAGA ACTGTC    
+6_aspA                       -    317  9.14e-06 ATCTGTTGGG TACCAGGGAAG TTCCAGCTGA
+246_rcnR                     -     53  1.10e-05 ACACATCGTT CACCAGGGGGA TGAGCTAAAA
+50_uup                       +    368  1.10e-05 GGTGTGGATC CGCCAGGGGAT CAAAGCACGC
+18_ytfQ                      +    412  1.10e-05 GCACGCTTTA CACCGGGGGAA ACCATGACGA
+9_tar                        -    342  1.10e-05 TGCTCGATAG CGCCAGGAAAA CATTGGCGCA
+235_sbcD                     -    160  1.34e-05 CATGCTTTTT CGCCAGGGAAC CGTTATGCGC
+198_maeB                     -     53  1.34e-05 GAATTTCCAG TTCCAGGGAAA ATCCAGGTTT
+29_malG                      -    402  1.34e-05 TATCTCGCTG CGTCAGGGAAA CTTTGCGACC
+263_lacZ                     -      8  1.76e-05 CGCGTGGCAG CATCAGGGGAA AACCTTA   
+259_mnmE                     +     95  1.76e-05 TAAGCGAAAT CACCGGGGAAT TTACTTCAGA
+211_queE                     -    185  1.76e-05 TGTCATTGGT CGCCAGGGATA CACCGCGCGG
+145_ydcI                     -     25  1.76e-05 CGGGTTTAAA AACCGGGGAAA TCGATATCGG
+69_lpxT                      +     15  1.76e-05 GACAAATCAC TACCAGGAAAA AACAAACATT
+287_ybfQ                     +     72  2.13e-05 CAGAGTTGTA TCCCAGGGAAA GATCAC    
+270_yddB                     -     77  2.13e-05 ACACGCATTA CACCAGTGAAA GCATCGAGCG
+225_ydiJ                     -     15  2.13e-05 TCAGGCGCTC AACCAGGGGAT TATTGTTGAT
+111_rsmA                     -     33  2.13e-05 TAATCGAGTC CACCAGGGCCA CTTAGCCCGT
+70_bidA                      +     94  2.13e-05 CACAAATATA AACCAGGAAAA TAATTAACCT
+42_bidA                      -     60  2.13e-05 AGCGTTAGCC TCCCAGGGAAA AACGGTTGCG
+268_lptD                     -    149  2.37e-05 CAAAAAGAGG CACCAGGACAA CCGGAGCCGG
+134_lptF                     +    111  2.37e-05 CGTCACTCTC AACCAGGGAAC GCGCTTCGAA
+132_yghJ                     +     25  2.37e-05 TACTGGACGT TACCAGCGAAA CCGCATTGCT
+8_ompC                       -     72  2.37e-05 TGCTGTTCAG TACCAGGGTAA AAACGGCAAC
+7_cstA                       +     74  2.37e-05 ACTATGAACA AATCAGGGAAA TACCTCGTCT
+200_ibpA                     -      3  2.84e-05 CACCTATCTG TACCAGGGCAT CG        
+178_plsB                     -    146  2.84e-05 GAACCGACTT TACCAGGGCAT CAACGTCCAT
+142_sppA                     +    125  2.84e-05 ATGTTTCTAT CACCAGGGCAC TGCCGCCGGA
+125_dnaB                     +     52  2.84e-05 ATCGCTGGAA CGCCAGGGGCA ACTCGATAGC
+113_metN                     -    121  2.84e-05 CAAAGTGTTC CACCAGGGCAC CCGCACCATC
+98_fliK                      +     41  2.84e-05 GCTGTTCACC CGCCAGGGGCA ACAAAGTGCA
+19_ligA                      -    144  2.84e-05 GCGATGGCAC CACCGGGGAAG ATATCACGTC
+249_mutL                     -     55  3.12e-05 TACCCAATTC CGCCAGGGCAG ACTGCGCTTT
+242_feoB                     +    157  3.12e-05 GCGCTGGGCT TGCCGGGGAAA TCCTTTG   
+210_mglA                     +    408  3.12e-05 AGTGCCTTAA CACCAGGAAAG GACTTGTTGA
+164_gyrA                     -      5  3.12e-05 GACGCTCTCT CACCAGGGCTA CGTT      
+147_prlC                     -    124  3.12e-05 GGGCACCGTA CACCTGGGAAA ATCTCTGCCA
+137_lptB                     +    106  3.63e-05 TGACCGTCAA CTCCGGGGAAA TTGTCGGTCT
+286_ligB                     +    128  4.28e-05 CGTTAATAAA AGCCAGGAAAA GATATGTTCA
+150_mnmA                     -     47  4.28e-05 AATTGGTGAG CACCAGGGGCT GATGTATCAC
+87_yaeP                      -     12  4.28e-05 TTTCTGAGGC TGTCAGGGAAA AAGCAGCATA
+84_tyrS                      +      4  4.28e-05        AAA AACCAGGGGGA GTGATTTCTC
+283_ghxP                     -     95  5.01e-05 GACAATCCCC TGCCAGCGAAA CGTTATCTTC
+269_ycgV                     -     68  5.01e-05 GGCTATCCGC AACCAGGGCAG CGAGGCCACA
+204_yhdT                     +     53  5.01e-05 TTTCTTCACC CATCAGGGACA AAAAATGGAC
+169_murC                     +     90  5.01e-05 TACGCTGCTG CGCCAGGACAA AGAGCCGATG
+151_iscR                     -     51  5.01e-05 TATTTCCGAA CGTCAGGGAAT TTCCCTTTCT
+105_mlaF                     -     19  5.01e-05 GCTGATCTTT TACCAGGGAGT TAAGCCACTC
+271_yphD                     -     50  6.06e-05 GCAGCTTATT TACCAGGAAAT TCGACCGTCG
+247_rcsD                     +     93  6.06e-05 GGCGGAACAG CATCAGGGGAT TATTCA    
+239_fimG                     +    135  6.06e-05 ATATTATAAA AACCAGGGGAC CGC       
+199_garK                     +     81  6.06e-05 ACGTACTGTG CATCAGGAAAA ATTTCCCGAA
+195_argP                     +    329  6.06e-05 ACAACTTGCT CGCCAGGGCAC CACCTGCTGT
+186_clpP                     +     83  6.06e-05 GTTGGGCGGC TACCAGGGCCA GGCGACCGAT
+180_ybjD                     +     15  6.06e-05 TTTTATGTAT CGCCAGGGATT TTCCGA    
+122_tpx                      -      9  6.06e-05 AACCGTTCAT TTCCAGGGCAA CCCGGTTA  
+115_rfbA                     -     35  6.06e-05 AATTGAAGAG CGCCAGGGATT GAAGGTTTCC
+109_rpoN                     +     46  6.06e-05 GCTGCCGGTC TACCAGGGCGA AACGACGCAG
+71_rcnB                      +     91  6.06e-05 AAGCATTTCA AACCAGGGGAC ACCGTACCAG
+23_crp                       +    210  6.06e-05 CACGCTTATT CACCAGGGTGA AAAAGCGGAA
+14_glpT                      +     16  6.06e-05 CAAAGAATAT CCCCAGGAAAA TTTGCCAGCG
+265_yhgN                     +    242  6.88e-05 CCGCGGCAAT TATCAGGGAAT TTGAGTTATG
+264_mcbR                     +     85  6.88e-05 CACTTTAATA CACCAGGTGAA TTCCTTCTGC
+136_dnaK                     +    240  6.88e-05 ACAGACTCGC AACCAGGGCGA CCATCTGCTG
+85_pepP                      +    122  6.88e-05 GCATTTGCTC CACCAGGGCCT GACGGCGACG
+41_gsk                       -    150  6.88e-05 CATCCTCAAT CACCAGTGAAT GCCCGGCGCT
+32_yqjA                      +    195  6.88e-05 TTAACCGATT CACCAGGAATA ATGAATGGAA
+15_gpsA                      -     51  6.88e-05 CAGCCACTAA CCCCAGGGAAC CTTTGTTACC
+2_napF                       -    164  6.88e-05 CTCCGCGCCA CACCAGGGCCT GGGATTTGCA
+191_yfbV                     -     86  7.73e-05 TAGCTTGTTT CGCCGGGGACA GCATTACTCA
+138_ysaB                     -    322  7.73e-05 CTTCGAACAG TTCCAGGGAAG CTATGAAATG
+119_clcA                     +    130  7.73e-05 TTGAACGAAA TACCAGGGTAT TAGATAATGG
+55_oppA                      +     71  7.73e-05 CGACACCCGT CACCAGGGTAC TTTTGATG  
+44_yidC                      +    231  7.73e-05 ACCGGCCAGT GGCCAGGGGAA ACTGATCTCG
+261_yfaE                     +    184  8.70e-05 GCCTTTATTC AGCCGGGGGAA ATTTTGCCCT
+266_ydhL                     -     71  9.80e-05 CCAGAGCCCG TGCCGGGGAAT TTGCCAGTCT
+260_ydbK                     -     14  9.80e-05 TCGCATTTCG CACCAGTGAAG TTATCGCCAT
+237_rsmI                     -     44  9.80e-05 AGCTGACCAA AACCTGGGAAA CCATTCACGG
+176_sdaC                     +     14  9.80e-05 ATTTGCATTC CTCCAGGAGAA ATAGATGGAA
+128_ychJ                     -     64  9.80e-05 CCGTTATTGT TTCCAGGGAGA TTATTTGTGT
+59_sfsA                      -     13  9.80e-05 AATACCCACA CACCTGGGAAT TAACTCAAAG
+52_sdaC                      +    112  9.80e-05 ATTTGCATTC CTCCAGGAGAA ATAGATGGAA
+21_yejG                      -    279  9.80e-05 GTGAATGTGC TTCCGGGGAAA ATAAGTGACT
+5_tnaA                       +    127  9.80e-05 CATTCCGACT CACCAGGGCCG TGGCGCAGAG
+267_tldE                     -    148  1.12e-04 CAATGGCTTC ATCCGGGGAAA CTTCCGCAGG
+244_gsiB                     +     84  1.12e-04 GAAATCGTTT TACCAGGGGCT GTTCGGTCTG
+219_preT                     +    143  1.12e-04 GCACAGACCG ATCCGGGGAAA TTTATTCGCT
+168_truC                     -     29  1.12e-04 TAAGTTCCTA ATCCAGGGAGA AAACGGTATG
+116_glpA                     +     51  1.12e-04 GATGGGCACC TGCCAGGGCGA ACTCTGCGCC
+106_waaY                     -     55  1.12e-04 TACATGTCTT CACCAGGACAG TTTTAAGCGG
+53_sucD                      +    120  1.12e-04 CTTTACCGGT AGCCAGGGGAC TTTCCACTCA
+49_cspD                      -     46  1.12e-04 GTTTGATGTC CACCAGGGGCC AAAAGGCAAT
+35_secD                      -    327  1.12e-04 AGCGCGGCGT TGCCGGGGCAA GGTTAAGCGC
+22_glpT                      -    108  1.12e-04 CTGCGGTTGG TTCCAGGGGAT GGGGTGGCCG
+231_trmB                     -     69  1.30e-04 TTTTGTGCGC CGCCAGGGGCG ACTGACCAAA
+229_gpmA                     +     95  1.30e-04 CGAACTCATA CACCAGCGGCA CGCCAGTCGG
+194_thrS                     -     66  1.30e-04 ACAAATTTTC AACCAGGGGCT GAAGTCTTAT
+184_yeaE                     -     23  1.30e-04 AAAATTGATC GCCCAGGGAAA AATCCGCCGC
+140_nhaA                     +     90  1.30e-04 TTTTCATTGT TATCAGGGAGA GAAATGAGCA
+232_ratA                     -     20  1.49e-04 AGGTTTACAG TGCCAGGTAAA ATTGCCGTTG
+203_gshA                     -    261  1.49e-04 GAATTCATTA CACCAGTGGAT GGTGATATTG
+193_ansP                     -     23  1.49e-04 TCATTAAAGC AATCAGGGAGA GCAATGAGTA
+181_dtpA                     +     61  1.49e-04 GTAGCGTAAA ATTCAGGGAAA CTCTTTTA  
+173_fabY                     +    163  1.49e-04 GGGGTTTGTT AATCAGGGAGA AATCACCACG
+165_ada                      -     40  1.49e-04 GGCTATCCTT AACCAGGGAGC TGATTATGAA
+75_rpsK                      -     20  1.49e-04 TATCACTGAT CGTCAGGGTAA CGCGTTGGGT
+31_ompT                      -      1  1.49e-04 GTGAAAATCG CCCCGGGGAAT           
+30_flxA                      +    262  1.49e-04 GTCTGTCACA ATTCAGGGAAA TACCTCAACC
+10_ompF                      -     48  1.49e-04 GGAATATAAC TTCCAGGGTAA CAACTCTGAA
+272_argG                     +    123  1.72e-04 CCGTCTGCTG TACCAGGGGCG TTGGTTTGAC
+252_wzxE                     +     93  1.72e-04 TGCGCCAATC AGCCAGGGATT GTTTG     
+241_arcB                     -     84  1.72e-04 CGCCATGTAT TACCAGGTGAA AGACAGTCAT
+135_recB                     -      8  1.72e-04 CGCGGTGCGT CACCGGGGACG TTCTTGC   
+133_bax                      -     31  1.72e-04 CCTTCCGGAA CACCAAGGAAA AAGGCGTTTC
+97_narG                      +    169  1.72e-04 GGAGCACGGT ATCCAGGGTAA AGATCTGGGG
+51_mutS                      +     60  1.72e-04 CCCCATTTAA TATCAGGGAAC CGGACATAAC
+290_sgrR                     +    297  1.90e-04 CAAAAAGAAA CGCCAGTGAAG CGGTGAAATT
+258_ycjG                     -    118  1.90e-04 TGACCTGCGG CACCAGCGGTA AAGCGGCGCT
+218_valS                     -     77  1.90e-04 TGGCGATGAA AGCCAGGAAAG TTTCTGCATC
+206_pnp                      -     56  1.90e-04 GGAAGTTGAT CGCCAGGGCCG TATCCGTCTG
+177_mtgA                     +    416  1.90e-04 GCTCGTTGTG CGCCAGGGCTT TCTCAATGGA
+92_tdcE                      -      8  1.90e-04 TAAAACCCAT AACCAGGGCGT ATTTGAT   
+253_srkA                     +     70  2.11e-04 TTTATTGAAT CATCAGGGATT TTA       
+248_rng                      -    186  2.11e-04 GGAACTGGTT CGTCAGGGGCA AGATCTGATG
+161_cobS                     +     20  2.11e-04 CGGTCATCAG CACCAGCACAA GTACGCTAAA
+144_malE                     -      9  2.11e-04 GTATTGCCGC CACCATGGAAA ACGCCCAG  
+100_brnQ                     +    113  2.11e-04 GCTGTATCAT CCCCAGGGATT GGCACAAAAA
+80_flgE                      -    295  2.11e-04 TTTTCGCTGC CATCAGGGTAT TCGGGATCGA
+274_ampG                     -     16  2.35e-04 GCCGCTGCCG TACCAGGGCTT ATTTTGCTGC
+234_apaH                     -    129  2.35e-04 GTAGAATTTA CCCCTGGGAAA GATACCCTCT
+227_yqeI                     +    151  2.35e-04 GCAAAATCCT CACCGGGGATG ATTGTTATGG
+196_tabA                     +     87  2.35e-04 GTTGTGTTTT ATCCGGGGGAA GTGCATAAAC
+146_yfaY                     -    431  2.35e-04 AAATGTTATC CACCGGGGATG AAGTGTTACA
+104_tdcB                     -     78  2.35e-04 AGTGATTGCT GGCCAGGGAAC GATTGGTCTG
+90_ynfS                      +    165  2.35e-04 ATAACCAAGT CACCAGCTAAA TAATAAGTTA
+62_nuoM                      +    164  2.35e-04 AATTAATATT AGCCAGGGTAG TAACATGGCG
+13_fliF                      +    349  2.62e-04 GCTGGTCATT CGCCAGTGGAT AAATAACGAT
+262_wecB                     -     99  2.96e-04 GCACAGGTTT CCCCAGCGAAG GCGCTTCTTC
+251_uspB                     -     23  2.96e-04 GCGGGCAGGT CGCCGGGGAGG AGGTATGATA
+159_rsfS                     -    369  2.96e-04 TATTTGATTC ACCCAGGGGGA AAACTTGCAG
+95_ygiM                      -    103  2.96e-04 AGCTGTCTTT CACCTGGGCAT AATTGGTGTT
+79_gltP                      -    120  2.96e-04 GCAGGTAGCT TCCCAGGAGAA TGCCCAGCAC
+67_lpxC                      +    151  2.96e-04 CGCCGGCCAA CACCGGGGTCA TCTATCGTCG
+224_chaA                     -     23  3.31e-04 ATTAGCCCAT CGCCTGGGAGA ACCTTACGGT
+171_ybiA                     -    117  3.31e-04 ATTTCTACAG CACCAGCGATG ACTACGGTGA
+170_diaA                     +     76  3.31e-04 GCTTTTCCCT CACCAGGATGA TTAAGGAGAA
+114_blr                      +    153  3.31e-04 TGTTGGTGAT TGTCAGGGATA GTAAAGCGCG
+82_btuE                      -     31  3.31e-04 TACTGACCAC ACCCAGGAGAA ACGATGCAAG
+56_ompF                      -    100  3.31e-04 AATTTACAAA CACCAGCGGCT TCGCCAACAA
+291_uvrA                     -    200  3.73e-04 TAAACTGCGC GATCAGGGCAA CACCATTGTG
+273_yicJ                     +     22  3.73e-04 ACGAAATTTA CCCCAGCGAGA GCGCGTTCGA
+257_puuR                     +    123  3.73e-04 AAGAATTAAG CATCAGGGTGA GGAAATAG  
+230_mglC                     -      1  3.73e-04 GTTAATTGTC ACCCAGGGGAC           
+212_argR                     +     73  3.73e-04 GAAATTTAGC TCCCAGGGCGA AATCGTCGCC
+208_nhaA                     -     97  3.73e-04 ACGCAGCGCC AACCAGCAGAA CAGACTAATC
+157_hemD                     -     49  3.73e-04 TGGTTGAAGA GACCAGGGAGG CCGTGGACAC
+127_malE                     -     66  3.73e-04 ACCCGCCAAA AACCTGGGAAG AGATCCCGGC
+40_ydbA                      +     20  3.73e-04 GGCGTGTGCC AATCGGGGAAT GAGTACAATA
+20_glpK                      -    117  3.73e-04 CGTTGCGCTC GACCAGGGCAC CACCAGCTCC
+288_yeiQ                     +     45  4.14e-04 TATTCGCATA CATCAGGGGCG CGAAACGGAC
+255_potE                     -     62  4.14e-04 CGCTGTACTC ATCCGGGGAAG AAGCCATGCT
+129_rpoB                     +     53  4.14e-04 CCGCAAAATC ACCCAGGGCGA CGATCTGGCA
+126_rsgA                     -     60  4.14e-04 ATGTTTTGCC CATCAGGGGCG ACCAGGAGTC
+117_trg                      -     74  4.14e-04 CTACTGTCAT CCCCAGTGAAT GCTGCATTTG
+72_ompA                      -     73  4.14e-04 TGACGCTTAC AACCAGGGTCT GTCCGAGCGC
+46_secB                      +    234  4.14e-04 CACGTTATTT CAGCAGGGGAT CCAGTCCACC
+26_fliF                      -    348  4.14e-04 CGCCCTGATC CACCAGCGTGA CGTTTCCCGG
+250_lgoR                     -     83  4.56e-04 CACGATGATA AACCAGCGCCA GTTACGCCCA
+213_garP                     +     19  4.56e-04 GGTGAGGAAG AACCAGGTGAT GGTGTTGATA
+166_ysdE                     -    135  4.56e-04 GCCAGATATA CGCCAGGAATG GGGAATTGTT
+17_uspA                      -    209  4.56e-04 GAACTTTGCT TTCCGGGGAGA GGTCGACCGC
+1_tnaC                       +    486  4.56e-04 CCGACAGCGG CACCGGGGCGG TGACGCAGAG
+76_tsr                       -     39  5.01e-04 CTGCCGTCTC TTCCAGCGAAG CGGCCTGTTG
+68_rbsK                      +     69  5.01e-04 TCTTTTCCTA CTCCAGGCGAA ACCGTAACCG
+33_rplJ                      -     65  5.01e-04 CCTGGATGTT TGCCAGAGAAA ATCTCTGGAA
+11_rpsF                      -    440  5.01e-04 ACACCACGCC TGCCGGTGAAA GCCGGCTTCC
+4_ypfM                       +    229  5.01e-04 CGATGACTAC CTCCGGGGGAC AAATCTTATG
+278_pheP                     -     24  5.53e-04 GCTGGCGCAT AATCAGGAAAG CGATGATCCC
+185_polA                     +    120  5.53e-04 TGGTCTTTGA CGCCAAGGGAA AAACCTTTCG
+57_yagE                      +    193  5.53e-04 TGCTGATCGG CACCGGCGGCA CCAACGCCCG
+222_uvrD                     +     73  6.12e-04 GGCATTTCAG GGCCAGGGTAT TAAATGGCTG
+189_mntR                     +     45  6.12e-04 TGAAGGGTTC CGCCAGGTCAG AGAGGCGCAT
+149_hsdS                     -    174  6.12e-04  AAAAAGGTA TTTCAGGAAAA GATATCAAAT
+91_prmC                      +     47  6.12e-04 TTATTTGTTT CGCCAGCGACC TTAATTCCGC
+47_yciZ                      -     96  6.12e-04 GATGGTCATT GACCAGGGTCA GGTTAGCGTA
+38_gcvT                      +     94  6.12e-04 CCACATCGTT CGCCAGCAGAT AACGCAGAAA
+37_grcA                      -     94  6.12e-04 CAAATAATTT TGCCGGGGAGG CATCACATGA
+12_rpsF                      -    178  6.12e-04 TTGCCTTCTG CACCAGTGATG GCAGCAGTGT
+284_trkG                     +     82  6.81e-04 TACCTAACTT TACCAGCAACA CCTCCGTCCC
+277_ybbW                     +     72  6.81e-04 ATTTATGGAA CATCAGAGAAA AC        
+214_dcuS                     -      7  6.81e-04 GTTTGAGCAA CGCCAGGCCAT GTTGCA    
+120_flxA                     -      5  6.81e-04 ATATCAATGG TGCCAGCGGTA TTTG      
+66_oppA                      -     48  6.81e-04 GTACATCAGC TGCCAGCGCGA CATTCCCTGC
+45_aegA                      -     22  6.81e-04 ACACCCGTCG CGGCAGGAAAA GTAAAAGCCA
+285_yeeJ                     -     85  7.49e-04 GTCACAAGAA TTTCAGCGAAA CCCCGATCAT
+223_fbp                      -     43  7.49e-04 TCCATAAACA TTGCAGGGAAA GTTTTATGAA
+202_ymcE                     +     86  7.49e-04 TTTCTTACCT GACCAGGGTAC CGGGAACCAA
+152_emrA                     +     79  7.49e-04 GACGCATACG TGGCAGGGAAT CAAATTCA  
+88_fliZ                      -     63  7.49e-04 TAACTTTGAC TACCAGGAGTT CTTAATGATG
+34_hypE                      -     69  7.49e-04 CCGCGTCTTT CCCCAGTGGAT GGGAATGTAA
+197_sanA                     +     58  8.26e-04 TCCGGCTATG CACCAGGTACC GGAAGATGCG
+93_ucpA                      -      4  8.26e-04 GAACTAAGTT CACCAGGCTAT TTT       
+254_thrB                     +     64  9.06e-04 CTGCCGTCAG AACCACGGGAA AATATCG   
+245_ynfC                     +     14  9.06e-04 TCGTGGTTTT ACCCAGCGGAT AACCCTGATC
+209_coaE                     +     38  9.06e-04 TCTCTTGCTG AATCAGCGGAT GCAGCAGGGC
+201_thrC                     +     54  9.06e-04 GCAAGCCGTA ACCCAGGGGTT GGGCAA    
+190_mqo                      -     23  9.06e-04 GTTCTGGGCG CACCAGGTTGA GCGCGGCGTG
+187_napC                     +     94  9.06e-04 ACAGCAGCGT CCCCAGCGCCA GACGGCTGGG
+179_panD                     -    107  9.06e-04 TCGCACGATG CTGCAGGGCAA ACTCCACCGC
+153_folA                     -    103  9.06e-04 GTTGCGTTTA AACCAGGCGAG ATCGGCAGGC
+139_zapG                     +     71  9.06e-04 AGATGTTCAT GACCTGGGAAT ATGCGCTAA 
+94_malT                      +     78  9.06e-04 GCGCCAGCGC TGCCAGTGGGA ACTGGCGGCG
+27_flhD                      -     94  9.06e-04 AATTATTTTT TACCGGGGCTT CCCGGCGACA
+281_dcm                      -     74  9.83e-04 ATTCATACAG CACCGGGAATG CCGCACAGGC
+141_tsr                      +    380  9.83e-04 ACAAACCATT CGCCAGCAGCA ATCCACGCTG
+83_kdsC                      +     88  9.83e-04 TCGCTATCAT TACCGGGCGAA AGGCTAAACT
+64_tnaB                      -    128  9.83e-04          A CACCGGCAAAG CCATAAAGAT
+36_gatZ                      -     68  9.83e-04 AACGCATTCA GTCCGGGGAAT TATCAGCAAT
+289_yfdP                     +     25  1.07e-03 CCGAAGAAGA CACCACCGAAA CGCCGATGTA
+280_pspF                     +      5  1.07e-03       TAAA CCCCGGGAACA GAGGCAGCTT
+217_btsS                     +     76  1.07e-03 AATGGGGATT CACCTGGGCGT GAAGCAGTTT
+183_trpB                     -     25  1.07e-03 ATTTTGAAAG CACGAGGGGAA ATCTGATGGA
+167_yicH                     +      2  1.07e-03          G TGCCGGTGAAT ATTTTGCAAC
+130_msrA                     +     64  1.07e-03 GGCAGGGCAT CGGCGGGGGAA ACCAGATGCT
+276_dppF                     -      4  1.17e-03 TGCTGATCAA CACCAGCTTAA GCA       
+103_helD                     +    161  1.17e-03 TGGTGTTTTA CGCCAGCAACT GGATTTGATT
+112_waaS                     +    264  1.28e-03 CCTTTATCAC GACCAAGGAAA AAACATATTG
+78_rplD                      +     43  1.28e-03 CAACCTGGTG AACCAGCGCTT CGTTGAAATC
+77_fre                       -    175  1.28e-03 GCGCCAACGC TGTCAGCAAAA TCGAGCGGGC
+16_fliC                      -      3  1.28e-03 TCTGTCTTCT ATCCAGGACGA AA        
+162_trxA                     -     89  1.40e-03 AACTGTCGTC AGTCAGGTGAA TAATTTTATC
+143_cyoA                     -    118  1.40e-03 ACGGTATCTC CGCCAGCTACA GCGGCCCGGG
+123_proQ                     +     17  1.40e-03 AGGTTCATTT CCCCAGCAACA CGATCGACCA
+118_flhE                     -     37  1.40e-03 CGTTGCGATT TATCTGGGAAG TGCCAGGCGG
+48_rpsG                      -     20  1.40e-03 GAGTTTTAGT CACCAGGCGGG CGCTTCCAGT
+39_gnsB                      -     65  1.40e-03 TTAAGAAAAA GACCGGGAAAG AAGTTACCAG
+233_waaZ                     -     18  1.53e-03 TTATAAATTT AGCCAGAGAAG TCGTTATACC
+215_bluR                     +     73  1.66e-03 TCAATGTTTG CGTCGGGAACA GTTCCGGGCG
+207_dctA                     +     53  1.66e-03 AAGATGAAGT CCCCAGTACAA TCAGCAGTTC
+182_oppB                     +     77  1.66e-03 ATGCGCCTCG CGCCGGGAAGC CCTTTT    
+160_yeaC                     +    221  1.66e-03 AACGCAACGC CATCAGGCCAT TTCCCCAGTT
+107_nuoC                     -     20  1.66e-03 AGGCGACTCG CACCGGGGTTC CCGTTGTGTG
+65_guaA                      -    201  1.80e-03          C ATTCAGGAAAG CCACGTTCAC
+121_gltJ                     +     96  1.94e-03 CATAAATCTA CTCCAGAAAAA AGAGGGTAGC
+110_pykA                     -     86  1.94e-03 TGACTGAAAC AACCAGGTGTT GCTTGAACAT
+108_fusA                     +    171  1.94e-03 TGGATCTTAA CGCCAGTAACT TCAGATTCCT
+61_grcA                      -    105  1.94e-03 TACCGTGAAG TTCCAGTAGAA GTGAAACCAG
+275_nrdE                     +     55  2.10e-03 ATATTGCGCA CACCATGGATT CCCC      
+226_yegT                     +     17  2.27e-03 GATGTTCGCT TATCAGGAACC GGTAAACGGA
+89_yjgA                      +     28  2.86e-03 ACGGGATCTT ATCCAGCGCGT TTTTCCCCAG
+279_ycaC                     -     13  3.08e-03 GCTTGTTGAT CACCAGGCTGG TTTACTTTCC
+43_yibX                      -     21  3.08e-03 GCCAGTCTTG CACCTAGGGAA GTAACACTAT
+154_ynaE                     +    104  3.55e-03 ATAATTCTTA CTTCAGGAAGC TGCGCAGGGA
+163_rpsB                     +     17  3.80e-03 TAGAGGTTTT AATCATGGCAA CTGTTTCCAT
+238_pldB                     -     48  4.08e-03 ATAGCGTTTA CGCCACGGACC GGGCTGAACC
+243_sfsA                     +     27  4.38e-03 GACGCGAATC CGCCTGCAACA TAAAGTCAAT
+192_rimK                     +     70  4.38e-03 GGCGGCACTG CGCCAGTTCGA GATGCTGGGG
+228_waaJ                     -     31  5.00e-03 CATCATTATA TCTCAGGAATT ATAGCAGGAG
+175_waaU                     -     87  5.00e-03 GGATTATATT TACCGGGTTAC CGCAAGATTT
+221_nanT                     +     34  5.35e-03 CCGGTACATA GACCGGGCAAC AGGATTAACT
+220_ubiU                     +     14  5.70e-03 GAGCGCCACG TATCGGTGCAG GCTTCGGCGA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CRCCAGGGAAA MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+236_yciW                          2.4e-07  117_[-1]_98
+3_rbsD                            2.4e-07  323_[+1]_176
+188_hslR                          4.7e-07  108_[+1]_2
+101_nfrA                          4.7e-07  4_[-1]_135
+24_yqeC                           1.4e-06  384_[-1]_110
+131_tmcA                          1.7e-06  7_[-1]_111
+240_ygfF                          2.1e-06  82_[-1]_304
+282_thiH                          2.3e-06  [-1]_112
+81_flgG                             4e-06  68_[+1]_45
+74_ycbJ                             4e-06  131_[+1]_172
+73_clpS                             4e-06  10_[+1]_119
+58_pqiC                             4e-06  97_[+1]_7
+54_clpS                             4e-06  48_[+1]_20
+25_mqsR                             4e-06  21_[-1]_336
+256_agp                           4.9e-06  92_[+1]_8
+148_dapF                          4.9e-06  87_[+1]_33
+28_bamE                           4.9e-06  181_[+1]_271
+63_rlmI                           5.9e-06  32_[-1]_136
+60_pgi                            5.9e-06  118_[+1]_84
+205_nudF                          7.3e-06  84_[-1]_432
+158_kefB                          7.3e-06  24_[-1]_33
+96_dgt                            7.3e-06  51_[-1]_24
+86_ydfW                           7.3e-06  352_[-1]_25
+102_aphA                            8e-06  199_[+1]_74
+99_nuoE                             8e-06  5_[-1]_193
+216_hrpA                          9.1e-06  153_[+1]_20
+174_dinI                          9.1e-06  308_[-1]_170
+172_nth                           9.1e-06  72_[+1]_56
+156_tar                           9.1e-06  13_[-1]_107
+155_tsr                           9.1e-06  64_[+1]_42
+124_lysR                          9.1e-06  172_[+1]_6
+6_aspA                            9.1e-06  316_[-1]_161
+246_rcnR                          1.1e-05  52_[-1]_158
+50_uup                            1.1e-05  367_[+1]_133
+18_ytfQ                           1.1e-05  411_[+1]_52
+9_tar                             1.1e-05  341_[-1]_185
+235_sbcD                          1.3e-05  159_[-1]_66
+198_maeB                          1.3e-05  52_[-1]_58
+29_malG                           1.3e-05  401_[-1]_101
+263_lacZ                          1.8e-05  7_[-1]_72
+259_mnmE                          1.8e-05  94_[+1]_35
+211_queE                          1.8e-05  184_[-1]_265
+145_ydcI                          1.8e-05  24_[-1]_267
+69_lpxT                           1.8e-05  14_[+1]_479
+287_ybfQ                          2.1e-05  71_[+1]_6
+270_yddB                          2.1e-05  76_[-1]_27
+225_ydiJ                          2.1e-05  14_[-1]_87
+111_rsmA                          2.1e-05  32_[-1]_60
+70_bidA                           2.1e-05  93_[+1]_15
+42_bidA                           2.1e-05  59_[-1]_66
+268_lptD                          2.4e-05  148_[-1]_72
+134_lptF                          2.4e-05  110_[+1]_92
+132_yghJ                          2.4e-05  24_[+1]_503
+8_ompC                            2.4e-05  71_[-1]_455
+7_cstA                            2.4e-05  73_[+1]_427
+200_ibpA                          2.8e-05  2_[-1]_70
+178_plsB                          2.8e-05  145_[-1]_141
+142_sppA                          2.8e-05  124_[+1]_98
+125_dnaB                          2.8e-05  51_[+1]_13
+113_metN                          2.8e-05  120_[-1]_83
+98_fliK                           2.8e-05  40_[+1]_27
+19_ligA                           2.8e-05  143_[-1]_224
+249_mutL                          3.1e-05  54_[-1]_78
+242_feoB                          3.1e-05  156_[+1]_7
+210_mglA                          3.1e-05  407_[+1]_75
+164_gyrA                          3.1e-05  4_[-1]_110
+147_prlC                          3.1e-05  123_[-1]_169
+137_lptB                          3.6e-05  105_[+1]_88
+286_ligB                          4.3e-05  127_[+1]_25
+150_mnmA                          4.3e-05  46_[-1]_84
+87_yaeP                           4.3e-05  11_[-1]_178
+84_tyrS                           4.3e-05  3_[+1]_85
+283_ghxP                            5e-05  94_[-1]_101
+269_ycgV                            5e-05  67_[-1]_42
+204_yhdT                            5e-05  52_[+1]_25
+169_murC                            5e-05  89_[+1]_41
+151_iscR                            5e-05  50_[-1]_26
+105_mlaF                            5e-05  18_[-1]_122
+271_yphD                          6.1e-05  49_[-1]_185
+247_rcsD                          6.1e-05  92_[+1]_6
+239_fimG                          6.1e-05  134_[+1]_3
+199_garK                          6.1e-05  80_[+1]_16
+195_argP                          6.1e-05  328_[+1]_71
+186_clpP                          6.1e-05  82_[+1]_93
+180_ybjD                          6.1e-05  14_[+1]_6
+122_tpx                           6.1e-05  8_[-1]_54
+115_rfbA                          6.1e-05  34_[-1]_117
+109_rpoN                          6.1e-05  45_[+1]_72
+71_rcnB                           6.1e-05  90_[+1]_21
+23_crp                            6.1e-05  209_[+1]_312
+14_glpT                           6.1e-05  15_[+1]_167
+265_yhgN                          6.9e-05  241_[+1]_74
+264_mcbR                          6.9e-05  84_[+1]_261
+136_dnaK                          6.9e-05  239_[+1]_151
+85_pepP                           6.9e-05  121_[+1]_94
+41_gsk                            6.9e-05  149_[-1]_300
+32_yqjA                           6.9e-05  194_[+1]_230
+15_gpsA                           6.9e-05  50_[-1]_430
+2_napF                            6.9e-05  163_[-1]_335
+191_yfbV                          7.7e-05  85_[-1]_73
+138_ysaB                          7.7e-05  321_[-1]_80
+119_clcA                          7.7e-05  129_[+1]_63
+55_oppA                           7.7e-05  70_[+1]_8
+44_yidC                           7.7e-05  230_[+1]_88
+261_yfaE                          8.7e-05  183_[+1]_23
+266_ydhL                          9.8e-05  70_[-1]_65
+260_ydbK                          9.8e-05  13_[-1]_109
+237_rsmI                          9.8e-05  43_[-1]_130
+176_sdaC                          9.8e-05  13_[+1]_115
+128_ychJ                          9.8e-05  63_[-1]_29
+59_sfsA                           9.8e-05  12_[-1]_188
+52_sdaC                           9.8e-05  111_[+1]_13
+21_yejG                           9.8e-05  278_[-1]_217
+5_tnaA                            9.8e-05  126_[+1]_402
+267_tldE                          0.00011  147_[-1]_32
+244_gsiB                          0.00011  83_[+1]_28
+219_preT                          0.00011  142_[+1]_266
+168_truC                          0.00011  28_[-1]_40
+116_glpA                          0.00011  50_[+1]_56
+106_waaY                          0.00011  54_[-1]_229
+53_sucD                           0.00011  119_[+1]_75
+49_cspD                           0.00011  45_[-1]_67
+35_secD                           0.00011  326_[-1]_133
+22_glpT                           0.00011  107_[-1]_20
+231_trmB                          0.00013  68_[-1]_111
+229_gpmA                          0.00013  94_[+1]_36
+194_thrS                          0.00013  65_[-1]_254
+184_yeaE                          0.00013  22_[-1]_92
+140_nhaA                          0.00013  89_[+1]_26
+232_ratA                          0.00015  19_[-1]_102
+203_gshA                          0.00015  260_[-1]_69
+193_ansP                          0.00015  22_[-1]_99
+181_dtpA                          0.00015  60_[+1]_8
+173_fabY                          0.00015  162_[+1]_58
+165_ada                           0.00015  39_[-1]_78
+75_rpsK                           0.00015  19_[-1]_111
+31_ompT                           0.00015  [-1]_454
+30_flxA                           0.00015  261_[+1]_114
+10_ompF                           0.00015  47_[-1]_177
+272_argG                          0.00017  122_[+1]_37
+252_wzxE                          0.00017  92_[+1]_5
+241_arcB                          0.00017  83_[-1]_33
+135_recB                          0.00017  7_[-1]_30
+133_bax                           0.00017  30_[-1]_16
+97_narG                           0.00017  168_[+1]_39
+51_mutS                           0.00017  59_[+1]_35
+290_sgrR                          0.00019  296_[+1]_65
+258_ycjG                          0.00019  117_[-1]_72
+218_valS                          0.00019  76_[-1]_117
+206_pnp                           0.00019  55_[-1]_50
+177_mtgA                          0.00019  415_[+1]_91
+92_tdcE                           0.00019  7_[-1]_41
+253_srkA                          0.00021  69_[+1]_3
+248_rng                           0.00021  185_[-1]_84
+161_cobS                          0.00021  19_[+1]_182
+144_malE                          0.00021  8_[-1]_113
+100_brnQ                          0.00021  112_[+1]_82
+80_flgE                           0.00021  294_[-1]_228
+274_ampG                          0.00024  15_[-1]_24
+234_apaH                          0.00024  128_[-1]_93
+227_yqeI                          0.00024  150_[+1]_216
+196_tabA                          0.00024  86_[+1]_66
+146_yfaY                          0.00024  430_[-1]_48
+104_tdcB                          0.00024  77_[-1]_51
+90_ynfS                           0.00024  164_[+1]_44
+62_nuoM                           0.00024  163_[+1]_19
+13_fliF                           0.00026  348_[+1]_160
+262_wecB                           0.0003  98_[-1]_86
+251_uspB                           0.0003  22_[-1]_112
+159_rsfS                           0.0003  368_[-1]_41
+95_ygiM                            0.0003  102_[-1]_13
+79_gltP                            0.0003  119_[-1]_90
+67_lpxC                            0.0003  150_[+1]_62
+224_chaA                          0.00033  22_[-1]_50
+171_ybiA                          0.00033  116_[-1]_109
+170_diaA                          0.00033  75_[+1]_12
+114_blr                           0.00033  152_[+1]_15
+82_btuE                           0.00033  30_[-1]_74
+56_ompF                           0.00033  99_[-1]_22
+291_uvrA                          0.00037  199_[-1]_150
+273_yicJ                          0.00037  21_[+1]_222
+257_puuR                          0.00037  122_[+1]_8
+230_mglC                          0.00037  [-1]_92
+212_argR                          0.00037  72_[+1]_12
+208_nhaA                          0.00037  96_[-1]_13
+157_hemD                          0.00037  48_[-1]_170
+127_malE                          0.00037  65_[-1]_114
+40_ydbA                           0.00037  19_[+1]_76
+20_glpK                           0.00037  116_[-1]_109
+288_yeiQ                          0.00041  44_[+1]_92
+255_potE                          0.00041  61_[-1]_17
+129_rpoB                          0.00041  52_[+1]_36
+126_rsgA                          0.00041  59_[-1]_10
+117_trg                           0.00041  73_[-1]_56
+72_ompA                           0.00041  72_[-1]_55
+46_secB                           0.00041  233_[+1]_79
+26_fliF                           0.00041  347_[-1]_105
+250_lgoR                          0.00046  82_[-1]_47
+213_garP                          0.00046  18_[+1]_53
+166_ysdE                          0.00046  134_[-1]_78
+17_uspA                           0.00046  208_[-1]_253
+1_tnaC                            0.00046  485_[+1]_37
+76_tsr                             0.0005  38_[-1]_73
+68_rbsK                            0.0005  68_[+1]_45
+33_rplJ                            0.0005  64_[-1]_62
+11_rpsF                            0.0005  439_[-1]_86
+4_ypfM                             0.0005  228_[+1]_75
+278_pheP                          0.00055  23_[-1]_85
+185_polA                          0.00055  119_[+1]_73
+57_yagE                           0.00055  192_[+1]_18
+222_uvrD                          0.00061  72_[+1]_24
+189_mntR                          0.00061  44_[+1]_98
+149_hsdS                          0.00061  173_[-1]_9
+91_prmC                           0.00061  46_[+1]_14
+47_yciZ                           0.00061  95_[-1]_334
+38_gcvT                           0.00061  93_[+1]_119
+37_grcA                           0.00061  93_[-1]_58
+12_rpsF                           0.00061  177_[-1]_30
+284_trkG                          0.00068  81_[+1]_29
+277_ybbW                          0.00068  71_[+1]_2
+214_dcuS                          0.00068  6_[-1]_49
+120_flxA                          0.00068  4_[-1]_83
+66_oppA                           0.00068  47_[-1]_65
+45_aegA                           0.00068  21_[-1]_372
+285_yeeJ                          0.00075  84_[-1]_37
+223_fbp                           0.00075  42_[-1]_23
+202_ymcE                          0.00075  85_[+1]_211
+152_emrA                          0.00075  78_[+1]_8
+88_fliZ                           0.00075  62_[-1]_62
+34_hypE                           0.00075  68_[-1]_178
+197_sanA                          0.00083  57_[+1]_37
+93_ucpA                           0.00083  3_[-1]_124
+254_thrB                          0.00091  63_[+1]_7
+245_ynfC                          0.00091  13_[+1]_186
+209_coaE                          0.00091  37_[+1]_39
+201_thrC                          0.00091  53_[+1]_6
+190_mqo                           0.00091  22_[-1]_261
+187_napC                          0.00091  93_[+1]_185
+179_panD                          0.00091  106_[-1]_18
+153_folA                          0.00091  102_[-1]_20
+139_zapG                          0.00091  70_[+1]_9
+94_malT                           0.00091  77_[+1]_44
+27_flhD                           0.00091  93_[-1]_131
+281_dcm                           0.00098  73_[-1]_17
+141_tsr                           0.00098  379_[+1]_18
+83_kdsC                           0.00098  87_[+1]_46
+64_tnaB                           0.00098  127_[-1]_1
+36_gatZ                           0.00098  67_[-1]_51
+289_yfdP                           0.0011  24_[+1]_53
+280_pspF                           0.0011  4_[+1]_58
+217_btsS                           0.0011  75_[+1]_72
+183_trpB                           0.0011  24_[-1]_56
+167_yicH                           0.0011  1_[+1]_93
+130_msrA                           0.0011  63_[+1]_110
+276_dppF                           0.0012  3_[-1]_50
+103_helD                           0.0012  160_[+1]_106
+112_waaS                           0.0013  263_[+1]_42
+78_rplD                            0.0013  42_[+1]_88
+77_fre                             0.0013  174_[-1]_25
+16_fliC                            0.0013  2_[-1]_128
+162_trxA                           0.0014  88_[-1]_52
+143_cyoA                           0.0014  117_[-1]_10
+123_proQ                           0.0014  16_[+1]_101
+118_flhE                           0.0014  36_[-1]_28
+48_rpsG                            0.0014  19_[-1]_104
+39_gnsB                            0.0014  64_[-1]_102
+233_waaZ                           0.0015  17_[-1]_245
+215_bluR                           0.0017  72_[+1]_44
+207_dctA                           0.0017  52_[+1]_30
+182_oppB                           0.0017  76_[+1]_6
+160_yeaC                           0.0017  220_[+1]_179
+107_nuoC                           0.0017  19_[-1]_263
+65_guaA                            0.0018  200_[-1]_1
+121_gltJ                           0.0019  95_[+1]_11
+110_pykA                           0.0019  85_[-1]_89
+108_fusA                           0.0019  170_[+1]_29
+61_grcA                            0.0019  104_[-1]_19
+275_nrdE                           0.0021  54_[+1]_4
+226_yegT                           0.0023  16_[+1]_165
+89_yjgA                            0.0029  27_[+1]_83
+279_ycaC                           0.0031  12_[-1]_117
+43_yibX                            0.0031  20_[-1]_87
+154_ynaE                           0.0035  103_[+1]_15
+163_rpsB                           0.0038  16_[+1]_45
+238_pldB                           0.0041  47_[-1]_68
+243_sfsA                           0.0044  26_[+1]_73
+192_rimK                           0.0044  69_[+1]_17
+228_waaJ                            0.005  30_[-1]_51
+175_waaU                            0.005  86_[-1]_29
+221_nanT                           0.0053  33_[+1]_21
+220_ubiU                           0.0057  13_[+1]_96
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CRCCAGGGAAA MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF CRCCAGGGAAA width=11 seqs=291
+236_yciW                 (  118) CACCAGGGAAA  1 
+3_rbsD                   (  324) CACCAGGGAAA  1 
+188_hslR                 (  109) CGCCAGGGAAA  1 
+101_nfrA                 (    5) CGCCAGGGAAA  1 
+24_yqeC                  (  385) AACCAGGGAAA  1 
+131_tmcA                 (    8) CACCAGGGCAA  1 
+240_ygfF                 (   83) CGCCAGGGGAA  1 
+282_thiH                 (    1) TGCCAGGGAAA  1 
+81_flgG                  (   69) AGCCAGGGAAA  1 
+74_ycbJ                  (  132) AGCCAGGGAAA  1 
+73_clpS                  (   11) TACCAGGGGAA  1 
+58_pqiC                  (   98) CACCAGGGACA  1 
+54_clpS                  (   49) TACCAGGGGAA  1 
+25_mqsR                  (   22) CACCAGGGAGA  1 
+256_agp                  (   93) CACCAGGAAAA  1 
+148_dapF                 (   88) AACCAGGGGAA  1 
+28_bamE                  (  182) AACCAGGGGAA  1 
+63_rlmI                  (   33) CATCAGGGAAA  1 
+60_pgi                   (  119) CACCAGGGAAC  1 
+205_nudF                 (   85) CACCAGCGAAA  1 
+158_kefB                 (   25) CGCCAGGGAAG  1 
+96_dgt                   (   52) CACCAGCGAAA  1 
+86_ydfW                  (  353) CACCAGGGATA  1 
+102_aphA                 (  200) AACCAGGGCAA  1 
+99_nuoE                  (    6) AACCAGGGCAA  1 
+216_hrpA                 (  154) CGCCGGGGAAA  1 
+174_dinI                 (  309) CGCCGGGGAAA  1 
+172_nth                  (   73) CGCCGGGGAAA  1 
+156_tar                  (   14) CGCCGGGGAAA  1 
+155_tsr                  (   65) CGCCGGGGAAA  1 
+124_lysR                 (  173) CGCCAGGGAGA  1 
+6_aspA                   (  317) TACCAGGGAAG  1 
+246_rcnR                 (   53) CACCAGGGGGA  1 
+50_uup                   (  368) CGCCAGGGGAT  1 
+18_ytfQ                  (  412) CACCGGGGGAA  1 
+9_tar                    (  342) CGCCAGGAAAA  1 
+235_sbcD                 (  160) CGCCAGGGAAC  1 
+198_maeB                 (   53) TTCCAGGGAAA  1 
+29_malG                  (  402) CGTCAGGGAAA  1 
+263_lacZ                 (    8) CATCAGGGGAA  1 
+259_mnmE                 (   95) CACCGGGGAAT  1 
+211_queE                 (  185) CGCCAGGGATA  1 
+145_ydcI                 (   25) AACCGGGGAAA  1 
+69_lpxT                  (   15) TACCAGGAAAA  1 
+287_ybfQ                 (   72) TCCCAGGGAAA  1 
+270_yddB                 (   77) CACCAGTGAAA  1 
+225_ydiJ                 (   15) AACCAGGGGAT  1 
+111_rsmA                 (   33) CACCAGGGCCA  1 
+70_bidA                  (   94) AACCAGGAAAA  1 
+42_bidA                  (   60) TCCCAGGGAAA  1 
+268_lptD                 (  149) CACCAGGACAA  1 
+134_lptF                 (  111) AACCAGGGAAC  1 
+132_yghJ                 (   25) TACCAGCGAAA  1 
+8_ompC                   (   72) TACCAGGGTAA  1 
+7_cstA                   (   74) AATCAGGGAAA  1 
+200_ibpA                 (    3) TACCAGGGCAT  1 
+178_plsB                 (  146) TACCAGGGCAT  1 
+142_sppA                 (  125) CACCAGGGCAC  1 
+125_dnaB                 (   52) CGCCAGGGGCA  1 
+113_metN                 (  121) CACCAGGGCAC  1 
+98_fliK                  (   41) CGCCAGGGGCA  1 
+19_ligA                  (  144) CACCGGGGAAG  1 
+249_mutL                 (   55) CGCCAGGGCAG  1 
+242_feoB                 (  157) TGCCGGGGAAA  1 
+210_mglA                 (  408) CACCAGGAAAG  1 
+164_gyrA                 (    5) CACCAGGGCTA  1 
+147_prlC                 (  124) CACCTGGGAAA  1 
+137_lptB                 (  106) CTCCGGGGAAA  1 
+286_ligB                 (  128) AGCCAGGAAAA  1 
+150_mnmA                 (   47) CACCAGGGGCT  1 
+87_yaeP                  (   12) TGTCAGGGAAA  1 
+84_tyrS                  (    4) AACCAGGGGGA  1 
+283_ghxP                 (   95) TGCCAGCGAAA  1 
+269_ycgV                 (   68) AACCAGGGCAG  1 
+204_yhdT                 (   53) CATCAGGGACA  1 
+169_murC                 (   90) CGCCAGGACAA  1 
+151_iscR                 (   51) CGTCAGGGAAT  1 
+105_mlaF                 (   19) TACCAGGGAGT  1 
+271_yphD                 (   50) TACCAGGAAAT  1 
+247_rcsD                 (   93) CATCAGGGGAT  1 
+239_fimG                 (  135) AACCAGGGGAC  1 
+199_garK                 (   81) CATCAGGAAAA  1 
+195_argP                 (  329) CGCCAGGGCAC  1 
+186_clpP                 (   83) TACCAGGGCCA  1 
+180_ybjD                 (   15) CGCCAGGGATT  1 
+122_tpx                  (    9) TTCCAGGGCAA  1 
+115_rfbA                 (   35) CGCCAGGGATT  1 
+109_rpoN                 (   46) TACCAGGGCGA  1 
+71_rcnB                  (   91) AACCAGGGGAC  1 
+23_crp                   (  210) CACCAGGGTGA  1 
+14_glpT                  (   16) CCCCAGGAAAA  1 
+265_yhgN                 (  242) TATCAGGGAAT  1 
+264_mcbR                 (   85) CACCAGGTGAA  1 
+136_dnaK                 (  240) AACCAGGGCGA  1 
+85_pepP                  (  122) CACCAGGGCCT  1 
+41_gsk                   (  150) CACCAGTGAAT  1 
+32_yqjA                  (  195) CACCAGGAATA  1 
+15_gpsA                  (   51) CCCCAGGGAAC  1 
+2_napF                   (  164) CACCAGGGCCT  1 
+191_yfbV                 (   86) CGCCGGGGACA  1 
+138_ysaB                 (  322) TTCCAGGGAAG  1 
+119_clcA                 (  130) TACCAGGGTAT  1 
+55_oppA                  (   71) CACCAGGGTAC  1 
+44_yidC                  (  231) GGCCAGGGGAA  1 
+261_yfaE                 (  184) AGCCGGGGGAA  1 
+266_ydhL                 (   71) TGCCGGGGAAT  1 
+260_ydbK                 (   14) CACCAGTGAAG  1 
+237_rsmI                 (   44) AACCTGGGAAA  1 
+176_sdaC                 (   14) CTCCAGGAGAA  1 
+128_ychJ                 (   64) TTCCAGGGAGA  1 
+59_sfsA                  (   13) CACCTGGGAAT  1 
+52_sdaC                  (  112) CTCCAGGAGAA  1 
+21_yejG                  (  279) TTCCGGGGAAA  1 
+5_tnaA                   (  127) CACCAGGGCCG  1 
+267_tldE                 (  148) ATCCGGGGAAA  1 
+244_gsiB                 (   84) TACCAGGGGCT  1 
+219_preT                 (  143) ATCCGGGGAAA  1 
+168_truC                 (   29) ATCCAGGGAGA  1 
+116_glpA                 (   51) TGCCAGGGCGA  1 
+106_waaY                 (   55) CACCAGGACAG  1 
+53_sucD                  (  120) AGCCAGGGGAC  1 
+49_cspD                  (   46) CACCAGGGGCC  1 
+35_secD                  (  327) TGCCGGGGCAA  1 
+22_glpT                  (  108) TTCCAGGGGAT  1 
+231_trmB                 (   69) CGCCAGGGGCG  1 
+229_gpmA                 (   95) CACCAGCGGCA  1 
+194_thrS                 (   66) AACCAGGGGCT  1 
+184_yeaE                 (   23) GCCCAGGGAAA  1 
+140_nhaA                 (   90) TATCAGGGAGA  1 
+232_ratA                 (   20) TGCCAGGTAAA  1 
+203_gshA                 (  261) CACCAGTGGAT  1 
+193_ansP                 (   23) AATCAGGGAGA  1 
+181_dtpA                 (   61) ATTCAGGGAAA  1 
+173_fabY                 (  163) AATCAGGGAGA  1 
+165_ada                  (   40) AACCAGGGAGC  1 
+75_rpsK                  (   20) CGTCAGGGTAA  1 
+31_ompT                  (    1) CCCCGGGGAAT  1 
+30_flxA                  (  262) ATTCAGGGAAA  1 
+10_ompF                  (   48) TTCCAGGGTAA  1 
+272_argG                 (  123) TACCAGGGGCG  1 
+252_wzxE                 (   93) AGCCAGGGATT  1 
+241_arcB                 (   84) TACCAGGTGAA  1 
+135_recB                 (    8) CACCGGGGACG  1 
+133_bax                  (   31) CACCAAGGAAA  1 
+97_narG                  (  169) ATCCAGGGTAA  1 
+51_mutS                  (   60) TATCAGGGAAC  1 
+290_sgrR                 (  297) CGCCAGTGAAG  1 
+258_ycjG                 (  118) CACCAGCGGTA  1 
+218_valS                 (   77) AGCCAGGAAAG  1 
+206_pnp                  (   56) CGCCAGGGCCG  1 
+177_mtgA                 (  416) CGCCAGGGCTT  1 
+92_tdcE                  (    8) AACCAGGGCGT  1 
+253_srkA                 (   70) CATCAGGGATT  1 
+248_rng                  (  186) CGTCAGGGGCA  1 
+161_cobS                 (   20) CACCAGCACAA  1 
+144_malE                 (    9) CACCATGGAAA  1 
+100_brnQ                 (  113) CCCCAGGGATT  1 
+80_flgE                  (  295) CATCAGGGTAT  1 
+274_ampG                 (   16) TACCAGGGCTT  1 
+234_apaH                 (  129) CCCCTGGGAAA  1 
+227_yqeI                 (  151) CACCGGGGATG  1 
+196_tabA                 (   87) ATCCGGGGGAA  1 
+146_yfaY                 (  431) CACCGGGGATG  1 
+104_tdcB                 (   78) GGCCAGGGAAC  1 
+90_ynfS                  (  165) CACCAGCTAAA  1 
+62_nuoM                  (  164) AGCCAGGGTAG  1 
+13_fliF                  (  349) CGCCAGTGGAT  1 
+262_wecB                 (   99) CCCCAGCGAAG  1 
+251_uspB                 (   23) CGCCGGGGAGG  1 
+159_rsfS                 (  369) ACCCAGGGGGA  1 
+95_ygiM                  (  103) CACCTGGGCAT  1 
+79_gltP                  (  120) TCCCAGGAGAA  1 
+67_lpxC                  (  151) CACCGGGGTCA  1 
+224_chaA                 (   23) CGCCTGGGAGA  1 
+171_ybiA                 (  117) CACCAGCGATG  1 
+170_diaA                 (   76) CACCAGGATGA  1 
+114_blr                  (  153) TGTCAGGGATA  1 
+82_btuE                  (   31) ACCCAGGAGAA  1 
+56_ompF                  (  100) CACCAGCGGCT  1 
+291_uvrA                 (  200) GATCAGGGCAA  1 
+273_yicJ                 (   22) CCCCAGCGAGA  1 
+257_puuR                 (  123) CATCAGGGTGA  1 
+230_mglC                 (    1) ACCCAGGGGAC  1 
+212_argR                 (   73) TCCCAGGGCGA  1 
+208_nhaA                 (   97) AACCAGCAGAA  1 
+157_hemD                 (   49) GACCAGGGAGG  1 
+127_malE                 (   66) AACCTGGGAAG  1 
+40_ydbA                  (   20) AATCGGGGAAT  1 
+20_glpK                  (  117) GACCAGGGCAC  1 
+288_yeiQ                 (   45) CATCAGGGGCG  1 
+255_potE                 (   62) ATCCGGGGAAG  1 
+129_rpoB                 (   53) ACCCAGGGCGA  1 
+126_rsgA                 (   60) CATCAGGGGCG  1 
+117_trg                  (   74) CCCCAGTGAAT  1 
+72_ompA                  (   73) AACCAGGGTCT  1 
+46_secB                  (  234) CAGCAGGGGAT  1 
+26_fliF                  (  348) CACCAGCGTGA  1 
+250_lgoR                 (   83) AACCAGCGCCA  1 
+213_garP                 (   19) AACCAGGTGAT  1 
+166_ysdE                 (  135) CGCCAGGAATG  1 
+17_uspA                  (  209) TTCCGGGGAGA  1 
+1_tnaC                   (  486) CACCGGGGCGG  1 
+76_tsr                   (   39) TTCCAGCGAAG  1 
+68_rbsK                  (   69) CTCCAGGCGAA  1 
+33_rplJ                  (   65) TGCCAGAGAAA  1 
+11_rpsF                  (  440) TGCCGGTGAAA  1 
+4_ypfM                   (  229) CTCCGGGGGAC  1 
+278_pheP                 (   24) AATCAGGAAAG  1 
+185_polA                 (  120) CGCCAAGGGAA  1 
+57_yagE                  (  193) CACCGGCGGCA  1 
+222_uvrD                 (   73) GGCCAGGGTAT  1 
+189_mntR                 (   45) CGCCAGGTCAG  1 
+149_hsdS                 (  174) TTTCAGGAAAA  1 
+91_prmC                  (   47) CGCCAGCGACC  1 
+47_yciZ                  (   96) GACCAGGGTCA  1 
+38_gcvT                  (   94) CGCCAGCAGAT  1 
+37_grcA                  (   94) TGCCGGGGAGG  1 
+12_rpsF                  (  178) CACCAGTGATG  1 
+284_trkG                 (   82) TACCAGCAACA  1 
+277_ybbW                 (   72) CATCAGAGAAA  1 
+214_dcuS                 (    7) CGCCAGGCCAT  1 
+120_flxA                 (    5) TGCCAGCGGTA  1 
+66_oppA                  (   48) TGCCAGCGCGA  1 
+45_aegA                  (   22) CGGCAGGAAAA  1 
+285_yeeJ                 (   85) TTTCAGCGAAA  1 
+223_fbp                  (   43) TTGCAGGGAAA  1 
+202_ymcE                 (   86) GACCAGGGTAC  1 
+152_emrA                 (   79) TGGCAGGGAAT  1 
+88_fliZ                  (   63) TACCAGGAGTT  1 
+34_hypE                  (   69) CCCCAGTGGAT  1 
+197_sanA                 (   58) CACCAGGTACC  1 
+93_ucpA                  (    4) CACCAGGCTAT  1 
+254_thrB                 (   64) AACCACGGGAA  1 
+245_ynfC                 (   14) ACCCAGCGGAT  1 
+209_coaE                 (   38) AATCAGCGGAT  1 
+201_thrC                 (   54) ACCCAGGGGTT  1 
+190_mqo                  (   23) CACCAGGTTGA  1 
+187_napC                 (   94) CCCCAGCGCCA  1 
+179_panD                 (  107) CTGCAGGGCAA  1 
+153_folA                 (  103) AACCAGGCGAG  1 
+139_zapG                 (   71) GACCTGGGAAT  1 
+94_malT                  (   78) TGCCAGTGGGA  1 
+27_flhD                  (   94) TACCGGGGCTT  1 
+281_dcm                  (   74) CACCGGGAATG  1 
+141_tsr                  (  380) CGCCAGCAGCA  1 
+83_kdsC                  (   88) TACCGGGCGAA  1 
+64_tnaB                  (  128) CACCGGCAAAG  1 
+36_gatZ                  (   68) GTCCGGGGAAT  1 
+289_yfdP                 (   25) CACCACCGAAA  1 
+280_pspF                 (    5) CCCCGGGAACA  1 
+217_btsS                 (   76) CACCTGGGCGT  1 
+183_trpB                 (   25) CACGAGGGGAA  1 
+167_yicH                 (    2) TGCCGGTGAAT  1 
+130_msrA                 (   64) CGGCGGGGGAA  1 
+276_dppF                 (    4) CACCAGCTTAA  1 
+103_helD                 (  161) CGCCAGCAACT  1 
+112_waaS                 (  264) GACCAAGGAAA  1 
+78_rplD                  (   43) AACCAGCGCTT  1 
+77_fre                   (  175) TGTCAGCAAAA  1 
+16_fliC                  (    3) ATCCAGGACGA  1 
+162_trxA                 (   89) AGTCAGGTGAA  1 
+143_cyoA                 (  118) CGCCAGCTACA  1 
+123_proQ                 (   17) CCCCAGCAACA  1 
+118_flhE                 (   37) TATCTGGGAAG  1 
+48_rpsG                  (   20) CACCAGGCGGG  1 
+39_gnsB                  (   65) GACCGGGAAAG  1 
+233_waaZ                 (   18) AGCCAGAGAAG  1 
+215_bluR                 (   73) CGTCGGGAACA  1 
+207_dctA                 (   53) CCCCAGTACAA  1 
+182_oppB                 (   77) CGCCGGGAAGC  1 
+160_yeaC                 (  221) CATCAGGCCAT  1 
+107_nuoC                 (   20) CACCGGGGTTC  1 
+65_guaA                  (  201) ATTCAGGAAAG  1 
+121_gltJ                 (   96) CTCCAGAAAAA  1 
+110_pykA                 (   86) AACCAGGTGTT  1 
+108_fusA                 (  171) CGCCAGTAACT  1 
+61_grcA                  (  105) TTCCAGTAGAA  1 
+275_nrdE                 (   55) CACCATGGATT  1 
+226_yegT                 (   17) TATCAGGAACC  1 
+89_yjgA                  (   28) ATCCAGCGCGT  1 
+279_ycaC                 (   13) CACCAGGCTGG  1 
+43_yibX                  (   21) CACCTAGGGAA  1 
+154_ynaE                 (  104) CTTCAGGAAGC  1 
+163_rpsB                 (   17) AATCATGGCAA  1 
+238_pldB                 (   48) CGCCACGGACC  1 
+243_sfsA                 (   27) CGCCTGCAACA  1 
+192_rimK                 (   70) CGCCAGTTCGA  1 
+228_waaJ                 (   31) TCTCAGGAATT  1 
+175_waaU                 (   87) TACCGGGTTAC  1 
+221_nanT                 (   34) GACCGGGCAAC  1 
+220_ubiU                 (   14) TATCGGTGCAG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CRCCAGGGAAA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 11 n= 57896 bayes= 8.48984 E= 1.4e-083 
+   -27    108   -236    -20 
+   105   -153     17   -115 
+ -1483    175   -359    -81 
+ -1483    201   -617  -1483 
+   165  -1483    -59   -261 
+  -420   -459    196   -461 
+  -420    -96    169   -211 
+   -61   -300    161   -239 
+   101    -50     -6   -167 
+   130    -78    -85   -139 
+   110   -136    -71    -24 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CRCCAGGGAAA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 11 nsites= 291 E= 1.4e-083 
+ 0.209622  0.522337  0.048110  0.219931 
+ 0.522337  0.085911  0.278351  0.113402 
+ 0.000000  0.835052  0.020619  0.144330 
+ 0.000000  0.996564  0.003436  0.000000 
+ 0.793814  0.000000  0.164948  0.041237 
+ 0.013746  0.010309  0.965636  0.010309 
+ 0.013746  0.127148  0.800687  0.058419 
+ 0.164948  0.030928  0.756014  0.048110 
+ 0.508591  0.175258  0.237113  0.079038 
+ 0.621993  0.144330  0.137457  0.096220 
+ 0.539519  0.096220  0.151203  0.213058 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CRCCAGGGAAA MEME-1 regular expression
+--------------------------------------------------------------------------------
+[CTA][AG]CCAGGG[AG]A[AT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 137.39 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF CAGCGCCGCG MEME-2	width =  10  sites =   2  llr = 28  E-value = 2.0e+008
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif CAGCGCCGCG MEME-2 Description
+--------------------------------------------------------------------------------
+Simplified        A  :a::::::::
+pos.-specific     C  a::a:aa:a:
+probability       G  ::a:a::a:a
+matrix            T  ::::::::::
+
+         bits    2.0 **********
+                 1.8 **********
+                 1.6 **********
+                 1.4 **********
+Relative         1.2 **********
+Entropy          1.0 **********
+(20.1 bits)      0.8 **********
+                 0.6 **********
+                 0.4 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           CAGCGCCGCG
+consensus                      
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCGCCGCG MEME-2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+126_rsgA                     -      3  8.94e-07 CAAAGGCCAG CAGCGCCGCG TG        
+34_hypE                      -     85  8.94e-07 CTTCACCAAT CAGCGCCGCG TCTTTCCCCA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCGCCGCG MEME-2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+126_rsgA                          8.9e-07  2_[-2]_68
+34_hypE                           8.9e-07  84_[-2]_163
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCGCCGCG MEME-2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF CAGCGCCGCG width=10 seqs=2
+126_rsgA                 (    3) CAGCGCCGCG  1 
+34_hypE                  (   85) CAGCGCCGCG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCGCCGCG MEME-2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 58187 bayes= 11.1273 E= 2.0e+008 
+  -765    201   -765   -765 
+   198   -765   -765   -765 
+  -765   -765    201   -765 
+  -765    201   -765   -765 
+  -765   -765    201   -765 
+  -765    201   -765   -765 
+  -765    201   -765   -765 
+  -765   -765    201   -765 
+  -765    201   -765   -765 
+  -765   -765    201   -765 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCGCCGCG MEME-2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 2 E= 2.0e+008 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCGCCGCG MEME-2 regular expression
+--------------------------------------------------------------------------------
+CAGCGCCGCG
+--------------------------------------------------------------------------------
+
+
+
+
+Time 264.62 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF GGYGCTGCCGCG MEME-3	width =  12  sites =   2  llr = 32  E-value = 2.9e+008
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif GGYGCTGCCGCG MEME-3 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::::::::::::
+pos.-specific     C  ::5:a::aa:a:
+probability       G  aa:a::a::a:a
+matrix            T  ::5::a::::::
+
+         bits    2.0 ** *********
+                 1.8 ** *********
+                 1.6 ** *********
+                 1.4 ** *********
+Relative         1.2 ** *********
+Entropy          1.0 ************
+(23.1 bits)      0.8 ************
+                 0.6 ************
+                 0.4 ************
+                 0.2 ************
+                 0.0 ------------
+
+Multilevel           GGCGCTGCCGCG
+consensus              T         
+sequence                         
+                                 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYGCTGCCGCG MEME-3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                Site  
+-------------            ------  ----- ---------            ------------
+207_dctA                     -     24  5.50e-08 CTTCCGAGTC GGCGCTGCCGCG TATGCTCGAC
+220_ubiU                     +     87  1.11e-07 TTGCTCGCGT GGTGCTGCCGCG CGTGTTGTCG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYGCTGCCGCG MEME-3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+207_dctA                          5.5e-08  23_[-3]_58
+220_ubiU                          1.1e-07  86_[+3]_22
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYGCTGCCGCG MEME-3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF GGYGCTGCCGCG width=12 seqs=2
+207_dctA                 (   24) GGCGCTGCCGCG  1 
+220_ubiU                 (   87) GGTGCTGCCGCG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYGCTGCCGCG MEME-3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 12 n= 57605 bayes= 13.9658 E= 2.9e+008 
+  -765   -765    201   -765 
+  -765   -765    201   -765 
+  -765    101   -765     98 
+  -765   -765    201   -765 
+  -765    201   -765   -765 
+  -765   -765   -765    198 
+  -765   -765    201   -765 
+  -765    201   -765   -765 
+  -765    201   -765   -765 
+  -765   -765    201   -765 
+  -765    201   -765   -765 
+  -765   -765    201   -765 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYGCTGCCGCG MEME-3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 12 nsites= 2 E= 2.9e+008 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.500000  0.000000  0.500000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYGCTGCCGCG MEME-3 regular expression
+--------------------------------------------------------------------------------
+GG[CT]GCTGCCGCG
+--------------------------------------------------------------------------------
+
+
+
+
+Time 390.90 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+1_tnaC                           3.83e-01  533
+2_napF                           2.06e-02  163_[-1(6.88e-05)]_94_\
+    [+2(2.80e-05)]_231
+3_rbsD                           5.52e-03  24_[-1(7.73e-05)]_288_\
+    [+1(2.36e-07)]_176
+4_ypfM                           5.12e-01  314
+5_tnaA                           3.30e-01  126_[+1(9.80e-05)]_402
+6_aspA                           6.29e-02  316_[-1(9.14e-06)]_161
+7_cstA                           1.05e-01  73_[+1(2.37e-05)]_427
+8_ompC                           2.70e-01  71_[-1(2.37e-05)]_256_\
+    [-1(6.88e-05)]_188
+9_tar                            3.81e-02  157_[-1(7.73e-05)]_173_\
+    [-1(1.10e-05)]_185
+10_ompF                          2.67e-02  25_[-3(3.53e-05)]_198
+11_rpsF                          5.88e-01  536
+12_rpsF                          7.25e-01  218
+13_fliF                          2.83e-01  519
+14_glpT                          3.20e-02  15_[+1(6.06e-05)]_167
+15_gpsA                          8.58e-03  50_[-1(6.88e-05)]_321_\
+    [+2(2.80e-05)]_99
+16_fliC                          6.92e-01  141
+17_uspA                          7.74e-02  429_[-3(3.53e-05)]_31
+18_ytfQ                          2.96e-02  411_[+1(1.10e-05)]_18_\
+    [+1(5.01e-05)]_23
+19_ligA                          5.29e-03  143_[-1(2.84e-05)]_17_\
+    [-2(2.80e-05)]_197
+20_glpK                          3.19e-01  236
+21_yejG                          3.83e-01  278_[-1(9.80e-05)]_217
+22_glpT                          8.90e-02  138
+23_crp                           4.49e-01  209_[+1(6.06e-05)]_312
+24_yqeC                          1.29e-02  98_[+1(9.80e-05)]_275_\
+    [-1(1.42e-06)]_110
+25_mqsR                          5.70e-02  21_[-1(3.99e-06)]_336
+26_fliF                          3.00e-01  463
+27_flhD                          6.07e-01  235
+28_bamE                          4.99e-02  181_[+1(4.93e-06)]_271
+29_malG                          5.41e-02  401_[-1(1.34e-05)]_101
+30_flxA                          1.44e-01  386
+31_ompT                          6.40e-01  465
+32_yqjA                          2.07e-01  194_[+1(6.88e-05)]_230
+33_rplJ                          6.33e-01  137
+34_hypE                          2.31e-04  33_[-3(3.53e-05)]_39_[-2(8.94e-07)]_\
+    163
+35_secD                          4.38e-03  335_[+2(2.80e-05)]_125
+36_gatZ                          7.38e-01  129
+37_grcA                          6.48e-01  162
+38_gcvT                          2.06e-02  123_[+3(7.60e-06)]_88
+39_gnsB                          9.23e-01  177
+40_ydbA                          4.90e-01  106
+41_gsk                           3.18e-02  149_[-1(6.88e-05)]_128_\
+    [+3(6.35e-05)]_160
+42_bidA                          5.32e-02  59_[-1(2.13e-05)]_66
+43_yibX                          8.27e-01  118
+44_yidC                          1.49e-01  230_[+1(7.73e-05)]_88
+45_aegA                          7.05e-01  404
+46_secB                          7.80e-01  323
+47_yciZ                          9.09e-01  440
+48_rpsG                          6.86e-01  134
+49_cspD                          2.78e-01  123
+50_uup                           3.45e-02  257_[+1(6.06e-05)]_99_\
+    [+1(1.10e-05)]_133
+51_mutS                          3.24e-01  105
+52_sdaC                          1.96e-01  111_[+1(9.80e-05)]_13
+53_sucD                          1.25e-01  205
+54_clpS                          1.78e-02  48_[+1(3.99e-06)]_20
+55_oppA                          1.79e-01  70_[+1(7.73e-05)]_8
+56_ompF                          1.23e-01  132
+57_yagE                          2.30e-03  33_[+2(2.80e-05)]_178
+58_pqiC                          2.07e-03  97_[+1(3.99e-06)]_7
+59_sfsA                          8.31e-02  12_[-1(9.80e-05)]_188
+60_pgi                           4.86e-02  118_[+1(5.87e-06)]_84
+61_grcA                          2.75e-01  134
+62_nuoM                          2.55e-02  49_[-3(3.53e-05)]_132
+63_rlmI                          8.59e-04  12_[+2(2.80e-05)]_10_[-1(5.87e-06)]_\
+    136
+64_tnaB                          2.47e-01  139
+65_guaA                          9.70e-01  212
+66_oppA                          2.29e-01  123
+67_lpxC                          4.71e-01  223
+68_rbsK                          4.16e-01  124
+69_lpxT                          2.22e-01  14_[+1(1.76e-05)]_479
+70_bidA                          2.10e-02  93_[+1(2.13e-05)]_15
+71_rcnB                          7.04e-02  90_[+1(6.06e-05)]_21
+72_ompA                          4.17e-02  138
+73_clpS                          2.13e-02  10_[+1(3.99e-06)]_119
+74_ycbJ                          3.30e-02  131_[+1(3.99e-06)]_172
+75_rpsK                          3.59e-01  141
+76_tsr                           5.35e-02  122
+77_fre                           3.81e-01  210
+78_rplD                          2.43e-01  141
+79_gltP                          3.41e-01  220
+80_flgE                          7.54e-01  533
+81_flgG                          1.60e-02  68_[+1(3.99e-06)]_45
+82_btuE                          4.90e-01  115
+83_kdsC                          6.82e-01  144
+84_tyrS                          1.90e-02  3_[+1(4.28e-05)]_85
+85_pepP                          1.90e-06  94_[-2(8.94e-07)]_17_[+1(6.88e-05)]_\
+    94
+86_ydfW                          3.72e-02  352_[-1(7.29e-06)]_25
+87_yaeP                          4.92e-02  11_[-1(4.28e-05)]_178
+88_fliZ                          2.83e-01  135
+89_yjgA                          3.23e-01  121
+90_ynfS                          5.78e-01  219
+91_prmC                          2.34e-01  71
+92_tdcE                          2.12e-01  59
+93_ucpA                          7.15e-02  99_[+3(6.35e-05)]_27
+94_malT                          1.95e-02  132
+95_ygiM                          1.44e-01  126
+96_dgt                           3.18e-02  51_[-1(7.29e-06)]_24
+97_narG                          6.07e-02  218
+98_fliK                          5.91e-03  40_[+1(2.84e-05)]_27
+99_nuoE                          1.27e-02  5_[-1(7.99e-06)]_193
+100_brnQ                         1.32e-01  205
+101_nfrA                         1.93e-05  4_[-1(4.69e-07)]_135
+102_aphA                         7.55e-03  199_[+1(7.99e-06)]_74
+103_helD                         2.10e-01  277
+104_tdcB                         3.69e-01  139
+105_mlaF                         2.82e-02  18_[-1(5.01e-05)]_122
+106_waaY                         1.23e-02  229_[-2(2.80e-05)]_55
+107_nuoC                         3.58e-01  293
+108_fusA                         2.32e-01  210
+109_rpoN                         4.97e-02  45_[+1(6.06e-05)]_72
+110_pykA                         4.63e-01  185
+111_rsmA                         4.74e-02  32_[-1(2.13e-05)]_60
+112_waaS                         9.76e-01  316
+113_metN                         7.41e-02  120_[-1(2.84e-05)]_83
+114_blr                          6.06e-01  178
+115_rfbA                         3.53e-02  34_[-1(6.06e-05)]_117
+116_glpA                         2.94e-03  117
+117_trg                          1.51e-01  140
+118_flhE                         9.62e-02  75
+119_clcA                         1.35e-01  129_[+1(7.73e-05)]_63
+120_flxA                         5.94e-01  98
+121_gltJ                         3.84e-01  117
+122_tpx                          8.93e-02  8_[-1(6.06e-05)]_54
+123_proQ                         5.11e-01  128
+124_lysR                         1.41e-03  144_[+2(2.80e-05)]_18_\
+    [+1(9.14e-06)]_6
+125_dnaB                         7.57e-03  51_[+1(2.84e-05)]_13
+126_rsgA                         4.50e-05  2_[-2(8.94e-07)]_68
+127_malE                         3.14e-02  51_[+2(2.80e-05)]_129
+128_ychJ                         5.14e-02  63_[-1(9.80e-05)]_29
+129_rpoB                         2.27e-01  99
+130_msrA                         6.66e-01  184
+131_tmcA                         9.51e-03  7_[-1(1.65e-06)]_111
+132_yghJ                         2.25e-01  24_[+1(2.37e-05)]_503
+133_bax                          7.89e-02  57
+134_lptF                         3.82e-03  110_[+1(2.37e-05)]_92
+135_recB                         2.70e-02  48
+136_dnaK                         7.95e-02  239_[+1(6.88e-05)]_151
+137_lptB                         1.42e-01  105_[+1(3.63e-05)]_88
+138_ysaB                         2.68e-01  321_[-1(7.73e-05)]_80
+139_zapG                         6.32e-01  90
+140_nhaA                         2.38e-01  126
+141_tsr                          9.51e-01  408
+142_sppA                         7.38e-03  124_[+1(2.84e-05)]_98
+143_cyoA                         2.05e-01  138
+144_malE                         2.31e-02  132
+145_ydcI                         4.64e-02  24_[-1(1.76e-05)]_267
+146_yfaY                         2.44e-01  489
+147_prlC                         1.35e-01  123_[-1(3.12e-05)]_169
+148_dapF                         1.65e-02  87_[+1(4.93e-06)]_33
+149_hsdS                         3.14e-01  193
+150_mnmA                         2.17e-02  46_[-1(4.28e-05)]_84
+151_iscR                         1.25e-01  50_[-1(5.01e-05)]_26
+152_emrA                         3.93e-01  97
+153_folA                         4.42e-01  133
+154_ynaE                         7.80e-01  129
+155_tsr                          4.44e-04  64_[+1(9.14e-06)]_16_[+2(2.80e-05)]_\
+    16
+156_tar                          1.25e-03  13_[-1(9.14e-06)]_107
+157_hemD                         5.90e-01  229
+158_kefB                         9.10e-03  24_[-1(7.29e-06)]_33
+159_rsfS                         4.58e-01  420
+160_yeaC                         8.55e-01  410
+161_cobS                         9.34e-03  176_[+2(2.80e-05)]_26
+162_trxA                         7.77e-01  151
+163_rpsB                         7.84e-01  72
+164_gyrA                         6.04e-02  4_[-1(3.12e-05)]_110
+165_ada                          2.15e-01  128
+166_ysdE                         3.29e-01  223
+167_yicH                         6.75e-01  105
+168_truC                         1.84e-01  79
+169_murC                         3.96e-03  81_[-3(3.53e-05)]_48
+170_diaA                         4.46e-01  98
+171_ybiA                         5.75e-01  236
+172_nth                          4.02e-02  72_[+1(9.14e-06)]_56
+173_fabY                         1.33e-01  231
+174_dinI                         1.37e-01  308_[-1(9.14e-06)]_170
+175_waaU                         8.83e-01  126
+176_sdaC                         1.86e-01  13_[+1(9.80e-05)]_115
+177_mtgA                         3.03e-01  517
+178_plsB                         1.86e-02  7_[-3(6.35e-05)]_[-1(4.28e-05)]_115_\
+    [-1(2.84e-05)]_141
+179_panD                         2.25e-01  135
+180_ybjD                         3.84e-02  14_[+1(6.06e-05)]_6
+181_dtpA                         5.91e-02  79
+182_oppB                         3.59e-01  93
+183_trpB                         1.51e-01  91
+184_yeaE                         9.54e-03  125
+185_polA                         5.67e-01  203
+186_clpP                         1.97e-01  82_[+1(6.06e-05)]_93
+187_napC                         4.77e-01  289
+188_hslR                         8.03e-05  108_[+1(4.69e-07)]_2
+189_mntR                         3.91e-02  153
+190_mqo                          3.68e-01  294
+191_yfbV                         1.52e-01  85_[-1(7.73e-05)]_73
+192_rimK                         8.20e-02  97
+193_ansP                         2.52e-01  132
+194_thrS                         1.54e-01  330
+195_argP                         1.76e-04  37_[+2(2.80e-05)]_34_[+3(2.05e-06)]_\
+    235_[+1(6.06e-05)]_71
+196_tabA                         6.18e-02  163
+197_sanA                         3.65e-01  105
+198_maeB                         3.76e-02  52_[-1(1.34e-05)]_58
+199_garK                         1.05e-01  80_[+1(6.06e-05)]_16
+200_ibpA                         6.90e-03  2_[-1(2.84e-05)]_70
+201_thrC                         3.44e-01  70
+202_ymcE                         4.66e-01  307
+203_gshA                         2.34e-01  340
+204_yhdT                         1.02e-01  52_[+1(5.01e-05)]_25
+205_nudF                         5.90e-02  84_[-1(7.29e-06)]_432
+206_pnp                          1.16e-02  1_[+3(6.35e-05)]_103
+207_dctA                         1.98e-05  23_[-3(5.50e-08)]_58
+208_nhaA                         2.38e-01  120
+209_coaE                         2.33e-01  87
+210_mglA                         1.91e-01  407_[+1(3.12e-05)]_75
+211_queE                         9.06e-02  184_[-1(1.76e-05)]_104_\
+    [-1(3.12e-05)]_150
+212_argR                         4.39e-01  95
+213_garP                         3.00e-01  82
+214_dcuS                         2.38e-01  66
+215_bluR                         2.35e-01  127
+216_hrpA                         1.67e-02  153_[+1(9.14e-06)]_20
+217_btsS                         2.34e-01  158
+218_valS                         3.86e-01  204
+219_preT                         6.81e-03  186_[+3(2.05e-06)]_221
+220_ubiU                         1.53e-04  86_[+3(1.11e-07)]_22
+221_nanT                         8.30e-01  65
+222_uvrD                         3.80e-01  107
+223_fbp                          5.59e-01  76
+224_chaA                         1.45e-01  83
+225_ydiJ                         2.36e-04  14_[-1(2.13e-05)]_24_[+3(3.53e-05)]_\
+    51
+226_yegT                         5.06e-01  192
+227_yqeI                         7.20e-01  377
+228_waaJ                         9.79e-01  92
+229_gpmA                         4.64e-02  141
+230_mglC                         2.27e-01  103
+231_trmB                         2.50e-01  190
+232_ratA                         2.24e-01  132
+233_waaZ                         5.32e-01  273
+234_apaH                         4.39e-01  232
+235_sbcD                         2.79e-02  159_[-1(1.34e-05)]_66
+236_yciW                         2.10e-04  30_[+3(6.35e-05)]_75_[-1(2.36e-07)]_\
+    98
+237_rsmI                         5.02e-03  43_[-1(9.80e-05)]_12_[-3(6.35e-05)]_\
+    106
+238_pldB                         8.61e-01  126
+239_fimG                         3.12e-02  134_[+1(6.06e-05)]_3
+240_ygfF                         1.45e-03  82_[-1(2.11e-06)]_84_[-3(6.35e-05)]_\
+    208
+241_arcB                         3.62e-01  127
+242_feoB                         3.78e-02  156_[+1(3.12e-05)]_7
+243_sfsA                         6.40e-01  110
+244_gsiB                         1.41e-01  122
+245_ynfC                         1.61e-01  210
+246_rcnR                         1.82e-02  52_[-1(1.10e-05)]_158
+247_rcsD                         3.97e-02  92_[+1(6.06e-05)]_6
+248_rng                          3.82e-01  280
+249_mutL                         1.75e-02  54_[-1(3.12e-05)]_78
+250_lgoR                         2.91e-01  140
+251_uspB                         4.20e-02  145
+252_wzxE                         9.63e-04  2_[+2(2.80e-05)]_96
+253_srkA                         6.17e-02  83
+254_thrB                         5.97e-02  81
+255_potE                         3.14e-01  89
+256_agp                          1.59e-02  92_[+1(4.93e-06)]_8
+257_puuR                         4.73e-01  141
+258_ycjG                         3.83e-02  200
+259_mnmE                         7.11e-02  94_[+1(1.76e-05)]_35
+260_ydbK                         7.68e-02  13_[-1(9.80e-05)]_109
+261_yfaE                         4.97e-03  58_[-2(2.80e-05)]_115_\
+    [+1(8.70e-05)]_23
+262_wecB                         4.07e-01  195
+263_lacZ                         1.78e-04  7_[-1(1.76e-05)]_72
+264_mcbR                         3.96e-01  84_[+1(6.88e-05)]_261
+265_yhgN                         2.45e-01  241_[+1(6.88e-05)]_74
+266_ydhL                         6.18e-02  70_[-1(9.80e-05)]_65
+267_tldE                         6.63e-03  34_[-2(2.80e-05)]_146
+268_lptD                         1.62e-01  148_[-1(2.37e-05)]_72
+269_ycgV                         5.89e-04  6_[-3(3.53e-05)]_49_[-1(5.01e-05)]_\
+    42
+270_yddB                         3.87e-02  76_[-1(2.13e-05)]_27
+271_yphD                         2.59e-02  49_[-1(6.06e-05)]_185
+272_argG                         2.46e-02  170
+273_yicJ                         5.06e-01  254
+274_ampG                         6.44e-03  50
+275_nrdE                         8.00e-01  69
+276_dppF                         1.52e-01  64
+277_ybbW                         5.83e-01  84
+278_pheP                         9.58e-02  119
+279_ycaC                         5.43e-01  140
+280_pspF                         5.00e-01  73
+281_dcm                          5.55e-02  101
+282_thiH                         1.88e-02  [-1(2.35e-06)]_112
+283_ghxP                         5.81e-02  94_[-1(5.01e-05)]_101
+284_trkG                         5.49e-01  121
+285_yeeJ                         6.56e-02  132
+286_ligB                         1.16e-01  127_[+1(4.28e-05)]_25
+287_ybfQ                         7.64e-02  71_[+1(2.13e-05)]_6
+288_yeiQ                         1.12e-01  147
+289_yfdP                         2.62e-01  88
+290_sgrR                         1.05e-01  4_[+3(6.35e-05)]_64_[-3(6.35e-05)]_\
+    280
+291_uvrA                         9.40e-02  360
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (3) found.
+********************************************************************************
+
+CPU: snode024.sibcb.ac.cn
+
+********************************************************************************
