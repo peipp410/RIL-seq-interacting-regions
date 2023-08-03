@@ -29,6 +29,6 @@ We provide an example for the usage of this tool, please see `run_rilseq.sh`. In
 
 We also apply [MEME](https://meme-suite.org) motif finding algorithms to the binding targets of different sRNAs. The motifs can be found in the `motif` directory. For example, the interacting regions of `ArcZ` gene has the following motif
 
-![logo1](https://github.com/peipp410/RIL-seq-interacting-regions/blob/master/motifs/arcZ/logo_rc1.png)
+![logo1](https://github.com/peipp410/RIL-seq-interacting-regions/blob/master/motifs/arcZ/logo1.png)
 
 In conclusion, the original RIL-seq pipeline cannot find accurate interacting regions due to its low reads utilization rate, and we improve the pipeline by mapping those unused sequencing reads to the reference genome and modify the interacting regions according to the mapped positions of these reads.
